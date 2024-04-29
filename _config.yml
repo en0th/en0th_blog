@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: en0th 博客
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: en0th
+language: zh-cn
 timezone: ''
 
 # URL
@@ -45,7 +45,7 @@ relative_link: false
 future: true
 syntax_highlighter: highlight.js
 highlight:
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace: ''
   wrap: true
