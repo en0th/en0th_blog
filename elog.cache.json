@@ -183,12 +183,11 @@
     {
       "id": 134168520,
       "doc_id": "un0m5pq0eegmw5tb",
-      "updated": 1714447086000,
+      "updated": 1714497546000,
       "properties": {
         "title": "Lilishop 开源商城系统代码审计",
         "date": "2023-07-24 15:52:16",
-        "updated": "2024-04-30 11:18:06",
-        "cover": "https://cdn.nlark.com/yuque/0/2023/png/2704449/1690265640655-3ae8fa17-747f-4e16-88c3-816a7ffaf1f1.png"
+        "updated": "2024-05-01 01:19:06"
       },
       "catalog": [
         {
@@ -197,8 +196,8 @@
         }
       ],
       "realName": "Lilishop 开源商城系统代码审计",
-      "relativePath": "代码审计\\Lilishop 开源商城系统代码审计.md",
-      "docPath": "source\\_posts\\代码审计"
+      "relativePath": "代码审计/Lilishop 开源商城系统代码审计.md",
+      "docPath": "source/_posts/代码审计"
     },
     {
       "id": 167864818,
@@ -276,6 +275,26 @@
       "realName": "记一次加密小程序的支付逻辑漏洞挖取",
       "relativePath": "小程序安全/记一次加密小程序的支付逻辑漏洞挖取.md",
       "docPath": "source/_posts/小程序安全"
+    },
+    {
+      "id": 167955858,
+      "doc_id": "uopyf8tg8h9aunf6",
+      "updated": 1714498496000,
+      "properties": {
+        "title": "记一次公众号商城服务1分钱购物漏洞",
+        "date": "2024-05-01 01:13:26",
+        "updated": "2024-05-01 01:34:56"
+      },
+      "catalog": [
+        {
+          "title": "小程序安全",
+          "doc_id": "uopyf8tg8h9aunf6"
+        }
+      ],
+      "realName": "记一次公众号商城服务1分钱购物漏洞",
+      "relativePath": "小程序安全/记一次公众号商城服务1分钱购物漏洞.md",
+      "needUpdate": 1,
+      "docPath": "source/_posts/小程序安全"
     }
   ],
   "catalog": [
@@ -286,7 +305,7 @@
       "url": "",
       "prev_uuid": "",
       "sibling_uuid": "b_rcpfIP-AqZa-n_",
-      "child_uuid": "_n2ZZoVupQtkj2sF",
+      "child_uuid": "drRr54gQ5g5rn-25",
       "parent_uuid": "",
       "doc_id": "",
       "level": 0,
@@ -296,10 +315,25 @@
     },
     {
       "type": "DOC",
+      "title": "记一次公众号商城服务1分钱购物漏洞",
+      "uuid": "drRr54gQ5g5rn-25",
+      "url": "uopyf8tg8h9aunf6",
+      "prev_uuid": "mI4WP_H2xE3efPEn",
+      "sibling_uuid": "_n2ZZoVupQtkj2sF",
+      "child_uuid": "",
+      "parent_uuid": "mI4WP_H2xE3efPEn",
+      "doc_id": 167955858,
+      "level": 1,
+      "id": 167955858,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "记一次加密小程序的支付逻辑漏洞挖取",
       "uuid": "_n2ZZoVupQtkj2sF",
       "url": "ogv5lkm1xhmcqgy7",
-      "prev_uuid": "mI4WP_H2xE3efPEn",
+      "prev_uuid": "drRr54gQ5g5rn-25",
       "sibling_uuid": "NdWveREmHMpWhKS1",
       "child_uuid": "",
       "parent_uuid": "mI4WP_H2xE3efPEn",
