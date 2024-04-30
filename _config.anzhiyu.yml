@@ -157,12 +157,12 @@ cover:
   suffix: 1
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover: 
-   - https://picsum.photos/960/720
+   - https://picsum.photos/390/300
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:
-  flink: https://picsum.photos/960/720
-  post_page: https://picsum.photos/960/720
+  flink: https://picsum.photos/390/300
+  post_page: https://picsum.photos/390/300
 
 # A simple 404 page
 error_404:
