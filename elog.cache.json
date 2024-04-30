@@ -219,15 +219,83 @@
       "realName": "BootstrapAdmin 代码审计",
       "relativePath": "代码审计\\BootstrapAdmin 代码审计.md",
       "docPath": "source\\_posts\\代码审计"
+    },
+    {
+      "id": 167930730,
+      "doc_id": "plcw7foug924adld",
+      "updated": 1714470611000,
+      "properties": {
+        "title": "Windows 微信小程序硬编码扫描",
+        "date": "2024-04-30 17:49:49",
+        "updated": "2024-04-30 17:50:11"
+      },
+      "catalog": [
+        {
+          "title": "小程序安全",
+          "doc_id": "plcw7foug924adld"
+        }
+      ],
+      "realName": "Windows 微信小程序硬编码扫描",
+      "relativePath": "小程序安全/Windows 微信小程序硬编码扫描.md",
+      "docPath": "source/_posts/小程序安全"
+    },
+    {
+      "id": 167929812,
+      "doc_id": "trkbc42ed0xlkgmz",
+      "updated": 1714470147000,
+      "properties": {
+        "title": "铭飞MCMS代码审计SQL注入",
+        "date": "2024-04-30 17:41:59",
+        "updated": "2024-04-30 17:42:27"
+      },
+      "catalog": [
+        {
+          "title": "代码审计",
+          "doc_id": "trkbc42ed0xlkgmz"
+        }
+      ],
+      "realName": "铭飞MCMS代码审计SQL注入",
+      "relativePath": "代码审计/铭飞MCMS代码审计SQL注入.md",
+      "docPath": "source/_posts/代码审计"
     }
   ],
   "catalog": [
     {
       "type": "TITLE",
+      "title": "小程序安全",
+      "uuid": "mI4WP_H2xE3efPEn",
+      "url": "",
+      "prev_uuid": "",
+      "sibling_uuid": "b_rcpfIP-AqZa-n_",
+      "child_uuid": "NdWveREmHMpWhKS1",
+      "parent_uuid": "",
+      "doc_id": "",
+      "level": 0,
+      "id": "",
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Windows 微信小程序硬编码扫描",
+      "uuid": "NdWveREmHMpWhKS1",
+      "url": "plcw7foug924adld",
+      "prev_uuid": "mI4WP_H2xE3efPEn",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "mI4WP_H2xE3efPEn",
+      "doc_id": 167930730,
+      "level": 1,
+      "id": 167930730,
+      "open_window": 0,
+      "visible": 1
+    },
+    {
+      "type": "TITLE",
       "title": "钓鱼手法",
       "uuid": "b_rcpfIP-AqZa-n_",
       "url": "",
-      "prev_uuid": "",
+      "prev_uuid": "mI4WP_H2xE3efPEn",
       "sibling_uuid": "NjhUoVbCFHdrk8_Q",
       "child_uuid": "3eIRlTxiiAC3ScY4",
       "parent_uuid": "",
@@ -304,7 +372,7 @@
       "url": "",
       "prev_uuid": "b_rcpfIP-AqZa-n_",
       "sibling_uuid": "FA3F2lH37botVSHY",
-      "child_uuid": "OJtXPvq8nLZucvwz",
+      "child_uuid": "9fc6FQlZhlJ_RWXe",
       "parent_uuid": "",
       "doc_id": "",
       "level": 0,
@@ -314,10 +382,25 @@
     },
     {
       "type": "DOC",
+      "title": "铭飞MCMS代码审计SQL注入",
+      "uuid": "9fc6FQlZhlJ_RWXe",
+      "url": "trkbc42ed0xlkgmz",
+      "prev_uuid": "NjhUoVbCFHdrk8_Q",
+      "sibling_uuid": "OJtXPvq8nLZucvwz",
+      "child_uuid": "",
+      "parent_uuid": "NjhUoVbCFHdrk8_Q",
+      "doc_id": 167929812,
+      "level": 1,
+      "id": 167929812,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "ModStartCMS-7.2.0 代码审计",
       "uuid": "OJtXPvq8nLZucvwz",
       "url": "gwpy33c722gu48f0",
-      "prev_uuid": "NjhUoVbCFHdrk8_Q",
+      "prev_uuid": "9fc6FQlZhlJ_RWXe",
       "sibling_uuid": "hgTTmaw2Z5Y85m2m",
       "child_uuid": "",
       "parent_uuid": "NjhUoVbCFHdrk8_Q",
