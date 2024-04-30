@@ -61,7 +61,7 @@ jobs:
       - name: 推送文章到仓库
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GITHUBTOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
 
       # - name: 部署到Github Pages       #此处master:master 指从本地的master分支提交到远程仓库的master分支，若远程仓库没有对应分支则新建一个。如有其他需要，可以根据自己的需求更改。
