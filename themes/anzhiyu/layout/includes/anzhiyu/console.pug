@@ -10,15 +10,17 @@
     .console-card-group-left
       !=partial('includes/widget/card_newest_comment', {}, {cache: true})
     .console-card-group-right
-      .console-card.tags
-        .card-content
-          if theme.nav_music.enable && theme.nav_music.console_widescreen_music
-            .author-content-item-tips 音乐
-            span.author-content-item-title 灵魂的碰撞💥
-          else 
-            .author-content-item-tips 兴趣点
-            span.author-content-item-title 寻找你感兴趣的领域
-            !=partial('includes/widget/card_console_tags', {}, {cache: true})
+      if theme.nav_music.enable || theme.centerConsole.card_tags.enable
+        .console-card.tags
+          .card-content
+            if theme.nav_music.enable && theme.nav_music.console_widescreen_music
+              .author-content-item-tips 音乐
+              span.author-content-item-title 灵魂的碰撞💥
+            else 
+              if theme.centerConsole.card_tags.enable
+                .author-content-item-tips 兴趣点
+                span.author-content-item-title 寻找你感兴趣的领域
+                !=partial('includes/widget/card_console_tags', {}, {cache: true})
       .console-card.history
         .item-headline
           i.anzhiyufont.anzhiyu-icon-box-archiv

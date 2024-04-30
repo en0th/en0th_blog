@@ -13,7 +13,9 @@ mixin postUI(posts)
           ? index%2 == 0 ? 'left' : 'right'
           : position === 'left' ? 'left' : 'right'
         let post_cover = article.cover
-        let no_cover = article.cover === false || !theme.cover.index_enable ? 'no-cover' : ''
+        //- let post_cover = theme.cover.default_cover
+        //- let no_cover = article.cover === false || !theme.cover.index_enable ? 'no-cover' : ''
+        let no_cover = ''
       -
       - const new_post = is_current('/') && (maxDate === article.date)
 

@@ -17,11 +17,11 @@ module.exports = {
       filename: "title",
       format: "matter-markdown",
       catalog: true,
-      formatExt: "",
       frontMatter: {
         enable: true,
-        exclude: ['urlname','description'] // 文档属性排除 description,urlname 字段
-      }
+        exclude: ['urlname','description','cover'] // 文档属性排除 description,urlname 字段
+      },
+      formatExt: './elog.format.js',
     }
   },
   image: {
