@@ -4,6 +4,7 @@ date: '2024-04-30 10:23:41'
 updated: '2024-04-30 11:18:06'
 abbrlink: c9e1fce4
 ---
+<!--more--> 
 # 0x00 前言
 ModStart 是一个基于 Laravel 的模块化快速开发框架。由西安炎燚信息科技有限公司开发，团队成立于2016年，是一家专业从事互联网应用服务、云计算、大数据、人工智能、企业信息化建设的技术型企业。
 在今年9月份我将审计出的漏洞报送给CNVD、CNNVD平台后，他们家开放了[ModStart安全应急响应中心 | ModStart](https://modstart.com/security)，希望大家多多支持他们家的产品。
@@ -81,9 +82,7 @@ yMZzWpFRGBGwrBVwDiNQF0U9xl7Baqa8:http://127.0.0.1:19980/help.PHP
 ![image.png](../../images/posts/0cde45e95875ebd56c3b7e0395cc323d.png)
 访问 http://localhost:38201/temp/ce540a9b00ee6fefa1f0ead15f2895ba.php
 ![image.png](../../images/posts/574ea80eae832e02583d5207c2498bb8.png)
-
 ### 漏洞审计
-
 调用链：
 ```
 Member/Web/Controller/MemberProfileController.php avatar 54行
@@ -239,7 +238,7 @@ type=&avatar=phar://./data/file/2023/09/22/28396_a9tq_5362.jpg
 ```
 请求后可以执行我们想要的命令。
 ![image.png](../../images/posts/4ca39b9fbd4410b36c4561d66e01d540.png)
-### 漏洞审计
+[![20230922_162126.mp4 (38.4MB)](../../images/posts/7f2f55e32159afeaa752aaa4983cc03b.png)]()### 漏洞审计
 调用链：
 ```
 Member/Web/Controller/MemberProfileController.php avatar 54行

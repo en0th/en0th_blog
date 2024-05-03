@@ -5,7 +5,7 @@
 # Site
 title: en0th 博客
 subtitle: 活到老，学到老。
-description: If you never try you'll never know
+description: 如果你永远不去尝试，那么你永远不知道有什么结果。
 keywords: 
 author: en0th
 language: zh-CN
@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://www.en0th.com
 permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
@@ -111,7 +111,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: anzhiyu
+theme: icarus
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -121,6 +121,7 @@ deploy:
 plugins:
   - hexo-directory-category
 
+# 自动通过目录识别类别
 auto_dir_categorize:
-	enable: true  # options:true, false; default is true
-	force: false # options:true, false; default is false
+  enable: true  # options:true, false; default is true
+  force: false # options:true, false; default is false
