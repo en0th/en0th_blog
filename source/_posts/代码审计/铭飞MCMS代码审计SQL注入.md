@@ -2,7 +2,6 @@
 title: 铭飞MCMS代码审计SQL注入
 date: '2024-04-30 17:41:59'
 updated: '2024-04-30 17:42:27'
-abbrlink: b0e57e08
 ---
 <!--more--> 
 ## 0x00 前言
