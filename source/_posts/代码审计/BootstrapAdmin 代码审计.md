@@ -4,6 +4,7 @@ date: '2024-04-30 10:20:17'
 updated: '2024-04-30 11:18:06'
 abbrlink: fd0db471
 ---
+<!--more--> 
 # 0x00 前言
 BootstrapAdmin 是基于 RBAC 的 Net7 后台管理框架。该项目获得GVP 奖杯并拥有1w+Star。
 本篇文章中的所有发现的相关漏洞已提交 Issues 或通知仓库拥有者本人。此前审计过PHP、JAVA的CMS，这次尝试审计使用.NET Core开发的Web网站。

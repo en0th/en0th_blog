@@ -8,6 +8,10 @@ const format = async (doc) => {
   if (doc.body) {
     doc.body = doc.body.replaceAll('{{', '{% raw %}{{')
     doc.body = doc.body.replaceAll('}}', '}}{% endraw %}')
+    // 获取第一行数据
+    // let f_v = doc.body.indexOf("\n")
+    // doc.body = doc.body.substring(0, f_v) + '<!--more-->' + doc.body.substring(f_v+1)
+    doc.body = "<!--more--> \n" + doc.body
   }
   doc.body = matterMarkdownAdapter(doc);
   return doc;

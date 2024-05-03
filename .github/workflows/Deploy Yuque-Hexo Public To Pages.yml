@@ -42,6 +42,7 @@ jobs:
 
       - name: 拉取文档
         run: |
+          npm run elog:clean
           npm run elog:sync
 
 

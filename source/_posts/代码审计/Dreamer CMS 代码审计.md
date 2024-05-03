@@ -4,6 +4,7 @@ date: '2024-04-30 10:19:12'
 updated: '2024-04-30 11:18:06'
 abbrlink: e0a04db4
 ---
+<!--more--> 
 # 0x00 前言
 很久没进行Java代码审计了，在Gitee上找到一个个人开发的CMS。Star数量可观并且有对应的官网，可以看出作者为这个CMS注入了很多心血。目前所有漏洞已经提交并由作者修复。尽管作者修复很快，但代码中的漏洞是遗留性问题，在原来的版本中仍然存在漏洞。
 具体可以看： [https://gitee.com/isoftforce/dreamer_cms/issues](https://gitee.com/isoftforce/dreamer_cms/issues) 
