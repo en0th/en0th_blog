@@ -237,7 +237,7 @@ type=&avatar=phar://./data/file/2023/09/22/28396_a9tq_5362.jpg
 ```
 请求后可以执行我们想要的命令。
 ![image.png](../../images/posts/4ca39b9fbd4410b36c4561d66e01d540.png)
-[![20230922_162126.mp4 (38.4MB)](../../images/posts/7f2f55e32159afeaa752aaa4983cc03b.png)]()### 漏洞审计
+[![20230922_162126.mp4 (38.4MB)](../../images/posts/7f2f55e32159afeaa752aaa4983cc03b.png)](https://www.yuque.com/docs/167865420?_lake_card=%7B%22status%22%3A%22done%22%2C%22name%22%3A%2220230922_162126.mp4%22%2C%22size%22%3A40261475%2C%22taskId%22%3A%22u459f075c-4ab4-4cb9-95c8-1d0d27551b6%22%2C%22taskType%22%3A%22upload%22%2C%22url%22%3Anull%2C%22cover%22%3Anull%2C%22videoId%22%3A%22inputs%2Fprod%2Fyuque%2F2023%2F2704449%2Fmp4%2F1695606899940-7058375b-91ce-4b67-a377-ba216ed8a7be.mp4%22%2C%22download%22%3Afalse%2C%22__spacing%22%3A%22both%22%2C%22id%22%3A%22oOGVo%22%2C%22margin%22%3A%7B%22top%22%3Atrue%2C%22bottom%22%3Atrue%7D%2C%22card%22%3A%22video%22%7D#oOGVo)### 漏洞审计
 调用链：
 ```
 Member/Web/Controller/MemberProfileController.php avatar 54行

@@ -837,5 +837,5 @@ $url = str_replace('phar://', '', $url);
 ```
 ![image.png](../../images/posts/083976fdbbef960c43d820b4a1b97fb4.png)
 payload 解析路径为：`phapharrphapharr://://`->`pharphar://://`->`phar://`
-[![漏洞复现.mp4 (21.02MB)](../../images/posts/7f2f55e32159afeaa752aaa4983cc03b.png)]()# 0x05 总结
+[![漏洞复现.mp4 (21.02MB)](../../images/posts/7f2f55e32159afeaa752aaa4983cc03b.png)](https://www.yuque.com/docs/167865370?_lake_card=%7B%22status%22%3A%22done%22%2C%22name%22%3A%22%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0.mp4%22%2C%22size%22%3A22042510%2C%22taskId%22%3A%22u444a10d2-49c0-450b-a8d7-2310a7fe3ef%22%2C%22taskType%22%3A%22upload%22%2C%22url%22%3Anull%2C%22cover%22%3Anull%2C%22videoId%22%3A%22inputs%2Fprod%2Fyuque%2F2023%2F2704449%2Fmp4%2F1695606443962-b639739e-0f4b-4385-9697-be4a37a60c27.mp4%22%2C%22download%22%3Afalse%2C%22__spacing%22%3A%22both%22%2C%22id%22%3A%22B4VSN%22%2C%22margin%22%3A%7B%22top%22%3Atrue%2C%22bottom%22%3Atrue%7D%2C%22card%22%3A%22video%22%7D#B4VSN)# 0x05 总结
 PHP的代码审计相对来说比较透明，关注一些危险函数即可。比较考验开发人员的安全意识和安全开发的水平能力。在实际进行代码审计时，我们需要搭建环境，结合数据库日志、代码审计工具、抓包工具进行检测。除了传统的危险函数检索，还可以从用户权限能力、业务绕过、凭据与加密方向进行考虑与审计。PHP 在CTF中的题目占较大，有非常多不错的题目，我们可以借鉴一二进行学习。
