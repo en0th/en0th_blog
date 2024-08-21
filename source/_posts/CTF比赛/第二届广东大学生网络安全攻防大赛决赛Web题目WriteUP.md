@@ -132,7 +132,7 @@ exp_2()
 ![微信截图_20230415133628.png](../../images/posts/73fd0ce321281ce2ab8997bc56620b93.png)
 ### 题目漏洞挖掘
 代码审计工具记录：
-![image.png](../../images/posts/217b2318b5b7d6231980eeab29fe5414.png)
+![image.png](https://cdn.nlark.com/yuque/0/2023/png/2704449/1681653042546-e520e1d3-9343-4187-83ee-aa0a4f15f03d.png#averageHue=%23ececec&clientId=ud2d2554e-be81-4&from=paste&height=606&id=D6ql7&originHeight=909&originWidth=1757&originalType=binary&ratio=1.5&rotation=0&showTitle=false&size=461253&status=done&style=none&taskId=u159a62bb-1015-4d92-b83b-63bccd62460&title=&width=1171.3333333333333)
 D盾查杀情况：
 ![image.png](../../images/posts/1c2d304dc1cf352c4821cc9c98056697.png)
 河马查杀情况：
