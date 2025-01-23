@@ -20,6 +20,25 @@
       "docPath": "source/_posts/杂谈"
     },
     {
+      "id": 203647125,
+      "doc_id": "trqsx7zhauwsnzri",
+      "updated": 1737646965000,
+      "properties": {
+        "title": "VulnHub DC-2 靶场训练",
+        "date": "2025-01-23 17:16:03",
+        "updated": "2025-01-23 23:42:45"
+      },
+      "catalog": [
+        {
+          "title": "渗透测试",
+          "doc_id": "trqsx7zhauwsnzri"
+        }
+      ],
+      "realName": "VulnHub DC-2 靶场训练",
+      "relativePath": "渗透测试/VulnHub DC-2 靶场训练.md",
+      "docPath": "source/_posts/渗透测试"
+    },
+    {
       "id": 192725014,
       "doc_id": "kqh6r6x7vglpyw09",
       "updated": 1732497914000,
@@ -56,25 +75,6 @@
       "realName": "靶场项目编写实战",
       "relativePath": "代码审计/靶场项目编写实战.md",
       "docPath": "source/_posts/代码审计"
-    },
-    {
-      "id": 187717637,
-      "doc_id": "cx0f4z82423dv1ss",
-      "updated": 1727099818000,
-      "properties": {
-        "title": "Linux 隐藏信息",
-        "date": "2024-09-23 21:53:17",
-        "updated": "2024-09-23 21:56:58"
-      },
-      "catalog": [
-        {
-          "title": "权限维持",
-          "doc_id": "cx0f4z82423dv1ss"
-        }
-      ],
-      "realName": "Linux 隐藏信息",
-      "relativePath": "权限维持/Linux 隐藏信息.md",
-      "docPath": "source/_posts/权限维持"
     },
     {
       "id": 167865370,
@@ -153,22 +153,22 @@
       "docPath": "source/_posts/权限维持"
     },
     {
-      "id": 187717551,
-      "doc_id": "vqwawyyz4pdrllxn",
-      "updated": 1727099643000,
+      "id": 187717637,
+      "doc_id": "cx0f4z82423dv1ss",
+      "updated": 1727099818000,
       "properties": {
-        "title": "Windows 隐藏木马后门文件",
-        "date": "2024-09-23 21:52:27",
-        "updated": "2024-09-23 21:54:03"
+        "title": "Linux 隐藏信息",
+        "date": "2024-09-23 21:53:17",
+        "updated": "2024-09-23 21:56:58"
       },
       "catalog": [
         {
           "title": "权限维持",
-          "doc_id": "vqwawyyz4pdrllxn"
+          "doc_id": "cx0f4z82423dv1ss"
         }
       ],
-      "realName": "Windows 隐藏木马后门文件",
-      "relativePath": "权限维持/Windows 隐藏木马后门文件.md",
+      "realName": "Linux 隐藏信息",
+      "relativePath": "权限维持/Linux 隐藏信息.md",
       "docPath": "source/_posts/权限维持"
     },
     {
@@ -191,22 +191,41 @@
       "docPath": "source/_posts/权限维持"
     },
     {
-      "id": 187717208,
-      "doc_id": "cv54gn61uffznppw",
-      "updated": 1727099376000,
+      "id": 187717551,
+      "doc_id": "vqwawyyz4pdrllxn",
+      "updated": 1727099643000,
       "properties": {
-        "title": "Windows mstsc 凭据收集",
-        "date": "2024-09-23 21:49:36",
-        "updated": "2024-09-23 21:49:36"
+        "title": "Windows 隐藏木马后门文件",
+        "date": "2024-09-23 21:52:27",
+        "updated": "2024-09-23 21:54:03"
+      },
+      "catalog": [
+        {
+          "title": "权限维持",
+          "doc_id": "vqwawyyz4pdrllxn"
+        }
+      ],
+      "realName": "Windows 隐藏木马后门文件",
+      "relativePath": "权限维持/Windows 隐藏木马后门文件.md",
+      "docPath": "source/_posts/权限维持"
+    },
+    {
+      "id": 187717126,
+      "doc_id": "lh9m6t5vbrc37ef3",
+      "updated": 1727099329000,
+      "properties": {
+        "title": "Linux 主机信息收集",
+        "date": "2024-09-23 21:48:49",
+        "updated": "2024-09-23 21:48:49"
       },
       "catalog": [
         {
           "title": "内网横向",
-          "doc_id": "cv54gn61uffznppw"
+          "doc_id": "lh9m6t5vbrc37ef3"
         }
       ],
-      "realName": "Windows mstsc 凭据收集",
-      "relativePath": "内网横向/Windows mstsc 凭据收集.md",
+      "realName": "Linux 主机信息收集",
+      "relativePath": "内网横向/Linux 主机信息收集.md",
       "docPath": "source/_posts/内网横向"
     },
     {
@@ -229,22 +248,22 @@
       "docPath": "source/_posts/代码审计"
     },
     {
-      "id": 187717126,
-      "doc_id": "lh9m6t5vbrc37ef3",
-      "updated": 1727099329000,
+      "id": 187717208,
+      "doc_id": "cv54gn61uffznppw",
+      "updated": 1727099376000,
       "properties": {
-        "title": "Linux 主机信息收集",
-        "date": "2024-09-23 21:48:49",
-        "updated": "2024-09-23 21:48:49"
+        "title": "Windows mstsc 凭据收集",
+        "date": "2024-09-23 21:49:36",
+        "updated": "2024-09-23 21:49:36"
       },
       "catalog": [
         {
           "title": "内网横向",
-          "doc_id": "lh9m6t5vbrc37ef3"
+          "doc_id": "cv54gn61uffznppw"
         }
       ],
-      "realName": "Linux 主机信息收集",
-      "relativePath": "内网横向/Linux 主机信息收集.md",
+      "realName": "Windows mstsc 凭据收集",
+      "relativePath": "内网横向/Windows mstsc 凭据收集.md",
       "docPath": "source/_posts/内网横向"
     },
     {
@@ -381,6 +400,25 @@
       "docPath": "source/_posts/钓鱼手法"
     },
     {
+      "id": 167865265,
+      "doc_id": "lzfh5n0f4cy4o95b",
+      "updated": 1714447093000,
+      "properties": {
+        "title": "邮件身份可信",
+        "date": "2024-04-30 10:22:46",
+        "updated": "2024-04-30 11:18:13"
+      },
+      "catalog": [
+        {
+          "title": "钓鱼手法",
+          "doc_id": "lzfh5n0f4cy4o95b"
+        }
+      ],
+      "realName": "邮件身份可信",
+      "relativePath": "钓鱼手法/邮件身份可信.md",
+      "docPath": "source/_posts/钓鱼手法"
+    },
+    {
       "id": 167865225,
       "doc_id": "hbhh63plduc40sg9",
       "updated": 1714447093000,
@@ -419,44 +457,6 @@
       "docPath": "source/_posts/钓鱼手法"
     },
     {
-      "id": 167865265,
-      "doc_id": "lzfh5n0f4cy4o95b",
-      "updated": 1714447093000,
-      "properties": {
-        "title": "邮件身份可信",
-        "date": "2024-04-30 10:22:46",
-        "updated": "2024-04-30 11:18:13"
-      },
-      "catalog": [
-        {
-          "title": "钓鱼手法",
-          "doc_id": "lzfh5n0f4cy4o95b"
-        }
-      ],
-      "realName": "邮件身份可信",
-      "relativePath": "钓鱼手法/邮件身份可信.md",
-      "docPath": "source/_posts/钓鱼手法"
-    },
-    {
-      "id": 167864938,
-      "doc_id": "lne79ipmubtgvw9o",
-      "updated": 1714447080000,
-      "properties": {
-        "title": "计算地址实现内存免杀",
-        "date": "2024-04-30 10:21:03",
-        "updated": "2024-04-30 11:18:00"
-      },
-      "catalog": [
-        {
-          "title": "免杀编写",
-          "doc_id": "lne79ipmubtgvw9o"
-        }
-      ],
-      "realName": "计算地址实现内存免杀",
-      "relativePath": "免杀编写/计算地址实现内存免杀.md",
-      "docPath": "source/_posts/免杀编写"
-    },
-    {
       "id": 167865066,
       "doc_id": "as6sbp4dna8x0o59",
       "updated": 1714447075000,
@@ -476,22 +476,22 @@
       "docPath": "source/_posts/CTF比赛"
     },
     {
-      "id": 167864818,
-      "doc_id": "gogsmo4ume4g53gg",
+      "id": 167864636,
+      "doc_id": "ofva6ryf2szo5i9b",
       "updated": 1714447086000,
       "properties": {
-        "title": "BootstrapAdmin 代码审计",
-        "date": "2024-04-30 10:20:17",
+        "title": "Dreamer CMS 代码审计",
+        "date": "2024-04-30 10:19:12",
         "updated": "2024-04-30 11:18:06"
       },
       "catalog": [
         {
           "title": "代码审计",
-          "doc_id": "gogsmo4ume4g53gg"
+          "doc_id": "ofva6ryf2szo5i9b"
         }
       ],
-      "realName": "BootstrapAdmin 代码审计",
-      "relativePath": "代码审计/BootstrapAdmin 代码审计.md",
+      "realName": "Dreamer CMS 代码审计",
+      "relativePath": "代码审计/Dreamer CMS 代码审计.md",
       "docPath": "source/_posts/代码审计"
     },
     {
@@ -514,32 +514,81 @@
       "docPath": "source/_posts/代码审计"
     },
     {
-      "id": 167864636,
-      "doc_id": "ofva6ryf2szo5i9b",
+      "id": 167864938,
+      "doc_id": "lne79ipmubtgvw9o",
+      "updated": 1714447080000,
+      "properties": {
+        "title": "计算地址实现内存免杀",
+        "date": "2024-04-30 10:21:03",
+        "updated": "2024-04-30 11:18:00"
+      },
+      "catalog": [
+        {
+          "title": "免杀编写",
+          "doc_id": "lne79ipmubtgvw9o"
+        }
+      ],
+      "realName": "计算地址实现内存免杀",
+      "relativePath": "免杀编写/计算地址实现内存免杀.md",
+      "docPath": "source/_posts/免杀编写"
+    },
+    {
+      "id": 167864818,
+      "doc_id": "gogsmo4ume4g53gg",
       "updated": 1714447086000,
       "properties": {
-        "title": "Dreamer CMS 代码审计",
-        "date": "2024-04-30 10:19:12",
+        "title": "BootstrapAdmin 代码审计",
+        "date": "2024-04-30 10:20:17",
         "updated": "2024-04-30 11:18:06"
       },
       "catalog": [
         {
           "title": "代码审计",
-          "doc_id": "ofva6ryf2szo5i9b"
+          "doc_id": "gogsmo4ume4g53gg"
         }
       ],
-      "realName": "Dreamer CMS 代码审计",
-      "relativePath": "代码审计/Dreamer CMS 代码审计.md",
+      "realName": "BootstrapAdmin 代码审计",
+      "relativePath": "代码审计/BootstrapAdmin 代码审计.md",
       "docPath": "source/_posts/代码审计"
     }
   ],
   "catalog": [
     {
       "type": "TITLE",
+      "title": "渗透测试",
+      "uuid": "y6ZGBwgpBgddmyk2",
+      "url": "",
+      "prev_uuid": "",
+      "sibling_uuid": "epS1sHdt0SIOVJUM",
+      "child_uuid": "bm1KS6KbReD05A8s",
+      "parent_uuid": "",
+      "doc_id": "",
+      "level": 0,
+      "id": "",
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "VulnHub DC-2 靶场训练",
+      "uuid": "bm1KS6KbReD05A8s",
+      "url": "trqsx7zhauwsnzri",
+      "prev_uuid": "y6ZGBwgpBgddmyk2",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "y6ZGBwgpBgddmyk2",
+      "doc_id": 203647125,
+      "level": 1,
+      "id": 203647125,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "TITLE",
       "title": "杂谈",
       "uuid": "epS1sHdt0SIOVJUM",
       "url": "",
-      "prev_uuid": "",
+      "prev_uuid": "y6ZGBwgpBgddmyk2",
       "sibling_uuid": "q01xRciXE0Epgej8",
       "child_uuid": "cvsC9EBJeq_Paoob",
       "parent_uuid": "",
