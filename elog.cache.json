@@ -22,11 +22,11 @@
     {
       "id": 203647125,
       "doc_id": "trqsx7zhauwsnzri",
-      "updated": 1737646965000,
+      "updated": 1737681626000,
       "properties": {
         "title": "VulnHub DC-2 靶场训练",
         "date": "2025-01-23 17:16:03",
-        "updated": "2025-01-23 23:42:45"
+        "updated": "2025-01-24 09:20:26"
       },
       "catalog": [
         {
@@ -39,23 +39,23 @@
       "docPath": "source/_posts/渗透测试"
     },
     {
-      "id": 192725014,
-      "doc_id": "kqh6r6x7vglpyw09",
-      "updated": 1732497914000,
+      "id": 247781899,
+      "doc_id": "zrlpakc0yg7ol1qf",
+      "updated": 1765115188000,
       "properties": {
-        "title": "Huawei Mate 20 Pro Root 教程",
-        "date": "2024-11-02 01:14:25",
-        "updated": "2024-11-25 09:25:14"
+        "title": "VMware Fusion 13.6 安装 Kali Linux 2025.2 ARM 报错",
+        "date": "2025-12-07 21:32:02",
+        "updated": "2025-12-07 21:46:28"
       },
       "catalog": [
         {
-          "title": "安卓测试",
-          "doc_id": "kqh6r6x7vglpyw09"
+          "title": "杂谈",
+          "doc_id": "zrlpakc0yg7ol1qf"
         }
       ],
-      "realName": "Huawei Mate 20 Pro Root 教程",
-      "relativePath": "安卓测试/Huawei Mate 20 Pro Root 教程.md",
-      "docPath": "source/_posts/安卓测试"
+      "realName": "VMware Fusion 13.6 安装 Kali Linux 2025.2 ARM 报错",
+      "relativePath": "杂谈/VMware Fusion 13.6 安装 Kali Linux 2025.2 ARM 报错.md",
+      "docPath": "source/_posts/杂谈"
     },
     {
       "id": 179338001,
@@ -96,6 +96,25 @@
       "docPath": "source/_posts/代码审计"
     },
     {
+      "id": 192725014,
+      "doc_id": "kqh6r6x7vglpyw09",
+      "updated": 1732497914000,
+      "properties": {
+        "title": "Huawei Mate 20 Pro Root 教程",
+        "date": "2024-11-02 01:14:25",
+        "updated": "2024-11-25 09:25:14"
+      },
+      "catalog": [
+        {
+          "title": "安卓测试",
+          "doc_id": "kqh6r6x7vglpyw09"
+        }
+      ],
+      "realName": "Huawei Mate 20 Pro Root 教程",
+      "relativePath": "安卓测试/Huawei Mate 20 Pro Root 教程.md",
+      "docPath": "source/_posts/安卓测试"
+    },
+    {
       "id": 187717518,
       "doc_id": "hi97n40l3snb657k",
       "updated": 1727099657000,
@@ -112,6 +131,25 @@
       ],
       "realName": "Windows 创建影子用户",
       "relativePath": "权限维持/Windows 创建影子用户.md",
+      "docPath": "source/_posts/权限维持"
+    },
+    {
+      "id": 187717637,
+      "doc_id": "cx0f4z82423dv1ss",
+      "updated": 1727099818000,
+      "properties": {
+        "title": "Linux 隐藏信息",
+        "date": "2024-09-23 21:53:17",
+        "updated": "2024-09-23 21:56:58"
+      },
+      "catalog": [
+        {
+          "title": "权限维持",
+          "doc_id": "cx0f4z82423dv1ss"
+        }
+      ],
+      "realName": "Linux 隐藏信息",
+      "relativePath": "权限维持/Linux 隐藏信息.md",
       "docPath": "source/_posts/权限维持"
     },
     {
@@ -153,44 +191,6 @@
       "docPath": "source/_posts/权限维持"
     },
     {
-      "id": 187717637,
-      "doc_id": "cx0f4z82423dv1ss",
-      "updated": 1727099818000,
-      "properties": {
-        "title": "Linux 隐藏信息",
-        "date": "2024-09-23 21:53:17",
-        "updated": "2024-09-23 21:56:58"
-      },
-      "catalog": [
-        {
-          "title": "权限维持",
-          "doc_id": "cx0f4z82423dv1ss"
-        }
-      ],
-      "realName": "Linux 隐藏信息",
-      "relativePath": "权限维持/Linux 隐藏信息.md",
-      "docPath": "source/_posts/权限维持"
-    },
-    {
-      "id": 187717586,
-      "doc_id": "pz9z6bvufzfit65t",
-      "updated": 1727099638000,
-      "properties": {
-        "title": "Windows 利用ADS隐藏WebShell后门",
-        "date": "2024-09-23 21:52:45",
-        "updated": "2024-09-23 21:53:58"
-      },
-      "catalog": [
-        {
-          "title": "权限维持",
-          "doc_id": "pz9z6bvufzfit65t"
-        }
-      ],
-      "realName": "Windows 利用ADS隐藏WebShell后门",
-      "relativePath": "权限维持/Windows 利用ADS隐藏WebShell后门.md",
-      "docPath": "source/_posts/权限维持"
-    },
-    {
       "id": 187717551,
       "doc_id": "vqwawyyz4pdrllxn",
       "updated": 1727099643000,
@@ -229,25 +229,6 @@
       "docPath": "source/_posts/内网横向"
     },
     {
-      "id": 179305384,
-      "doc_id": "cikpcdhf7h9avowv",
-      "updated": 1721806165000,
-      "properties": {
-        "title": "Windows 模式下 PHP 文件写入特性",
-        "date": "2024-07-24 15:29:12",
-        "updated": "2024-07-24 15:29:25"
-      },
-      "catalog": [
-        {
-          "title": "代码审计",
-          "doc_id": "cikpcdhf7h9avowv"
-        }
-      ],
-      "realName": "Windows 模式下 PHP 文件写入特性",
-      "relativePath": "代码审计/Windows 模式下 PHP 文件写入特性.md",
-      "docPath": "source/_posts/代码审计"
-    },
-    {
       "id": 187717208,
       "doc_id": "cv54gn61uffznppw",
       "updated": 1727099376000,
@@ -267,23 +248,42 @@
       "docPath": "source/_posts/内网横向"
     },
     {
-      "id": 174194141,
-      "doc_id": "svkghl4tkdtra7eq",
-      "updated": 1719912216000,
+      "id": 187717586,
+      "doc_id": "pz9z6bvufzfit65t",
+      "updated": 1727099638000,
       "properties": {
-        "title": "Windows 端口排查步骤",
-        "date": "2024-06-18 16:00:36",
-        "updated": "2024-07-02 17:23:36"
+        "title": "Windows 利用ADS隐藏WebShell后门",
+        "date": "2024-09-23 21:52:45",
+        "updated": "2024-09-23 21:53:58"
       },
       "catalog": [
         {
-          "title": "应急排查",
-          "doc_id": "svkghl4tkdtra7eq"
+          "title": "权限维持",
+          "doc_id": "pz9z6bvufzfit65t"
         }
       ],
-      "realName": "Windows 端口排查步骤",
-      "relativePath": "应急排查/Windows 端口排查步骤.md",
-      "docPath": "source/_posts/应急排查"
+      "realName": "Windows 利用ADS隐藏WebShell后门",
+      "relativePath": "权限维持/Windows 利用ADS隐藏WebShell后门.md",
+      "docPath": "source/_posts/权限维持"
+    },
+    {
+      "id": 179305384,
+      "doc_id": "cikpcdhf7h9avowv",
+      "updated": 1721806165000,
+      "properties": {
+        "title": "Windows 模式下 PHP 文件写入特性",
+        "date": "2024-07-24 15:29:12",
+        "updated": "2024-07-24 15:29:25"
+      },
+      "catalog": [
+        {
+          "title": "代码审计",
+          "doc_id": "cikpcdhf7h9avowv"
+        }
+      ],
+      "realName": "Windows 模式下 PHP 文件写入特性",
+      "relativePath": "代码审计/Windows 模式下 PHP 文件写入特性.md",
+      "docPath": "source/_posts/代码审计"
     },
     {
       "id": 167955799,
@@ -305,23 +305,23 @@
       "docPath": "source/_posts/小程序安全"
     },
     {
-      "id": 167930730,
-      "doc_id": "plcw7foug924adld",
-      "updated": 1714470611000,
+      "id": 174194141,
+      "doc_id": "svkghl4tkdtra7eq",
+      "updated": 1719912216000,
       "properties": {
-        "title": "Windows 微信小程序硬编码扫描",
-        "date": "2024-04-30 17:49:49",
-        "updated": "2024-04-30 17:50:11"
+        "title": "Windows 端口排查步骤",
+        "date": "2024-06-18 16:00:36",
+        "updated": "2024-07-02 17:23:36"
       },
       "catalog": [
         {
-          "title": "小程序安全",
-          "doc_id": "plcw7foug924adld"
+          "title": "应急排查",
+          "doc_id": "svkghl4tkdtra7eq"
         }
       ],
-      "realName": "Windows 微信小程序硬编码扫描",
-      "relativePath": "小程序安全/Windows 微信小程序硬编码扫描.md",
-      "docPath": "source/_posts/小程序安全"
+      "realName": "Windows 端口排查步骤",
+      "relativePath": "应急排查/Windows 端口排查步骤.md",
+      "docPath": "source/_posts/应急排查"
     },
     {
       "id": 173650360,
@@ -379,6 +379,25 @@
       "realName": "ModStartCMS-7.2.0 代码审计",
       "relativePath": "代码审计/ModStartCMS-7.2.0 代码审计.md",
       "docPath": "source/_posts/代码审计"
+    },
+    {
+      "id": 167930730,
+      "doc_id": "plcw7foug924adld",
+      "updated": 1714470611000,
+      "properties": {
+        "title": "Windows 微信小程序硬编码扫描",
+        "date": "2024-04-30 17:49:49",
+        "updated": "2024-04-30 17:50:11"
+      },
+      "catalog": [
+        {
+          "title": "小程序安全",
+          "doc_id": "plcw7foug924adld"
+        }
+      ],
+      "realName": "Windows 微信小程序硬编码扫描",
+      "relativePath": "小程序安全/Windows 微信小程序硬编码扫描.md",
+      "docPath": "source/_posts/小程序安全"
     },
     {
       "id": 167865293,
@@ -495,22 +514,22 @@
       "docPath": "source/_posts/代码审计"
     },
     {
-      "id": 134168520,
-      "doc_id": "un0m5pq0eegmw5tb",
-      "updated": 1727099910000,
+      "id": 167864818,
+      "doc_id": "gogsmo4ume4g53gg",
+      "updated": 1714447086000,
       "properties": {
-        "title": "Lilishop 开源商城系统代码审计",
-        "date": "2023-07-24 15:52:16",
-        "updated": "2024-09-23 21:58:30"
+        "title": "BootstrapAdmin 代码审计",
+        "date": "2024-04-30 10:20:17",
+        "updated": "2024-04-30 11:18:06"
       },
       "catalog": [
         {
           "title": "代码审计",
-          "doc_id": "un0m5pq0eegmw5tb"
+          "doc_id": "gogsmo4ume4g53gg"
         }
       ],
-      "realName": "Lilishop 开源商城系统代码审计",
-      "relativePath": "代码审计/Lilishop 开源商城系统代码审计.md",
+      "realName": "BootstrapAdmin 代码审计",
+      "relativePath": "代码审计/BootstrapAdmin 代码审计.md",
       "docPath": "source/_posts/代码审计"
     },
     {
@@ -533,22 +552,22 @@
       "docPath": "source/_posts/免杀编写"
     },
     {
-      "id": 167864818,
-      "doc_id": "gogsmo4ume4g53gg",
-      "updated": 1714447086000,
+      "id": 134168520,
+      "doc_id": "un0m5pq0eegmw5tb",
+      "updated": 1727099910000,
       "properties": {
-        "title": "BootstrapAdmin 代码审计",
-        "date": "2024-04-30 10:20:17",
-        "updated": "2024-04-30 11:18:06"
+        "title": "Lilishop 开源商城系统代码审计",
+        "date": "2023-07-24 15:52:16",
+        "updated": "2024-09-23 21:58:30"
       },
       "catalog": [
         {
           "title": "代码审计",
-          "doc_id": "gogsmo4ume4g53gg"
+          "doc_id": "un0m5pq0eegmw5tb"
         }
       ],
-      "realName": "BootstrapAdmin 代码审计",
-      "relativePath": "代码审计/BootstrapAdmin 代码审计.md",
+      "realName": "Lilishop 开源商城系统代码审计",
+      "relativePath": "代码审计/Lilishop 开源商城系统代码审计.md",
       "docPath": "source/_posts/代码审计"
     }
   ],
@@ -590,7 +609,7 @@
       "url": "",
       "prev_uuid": "y6ZGBwgpBgddmyk2",
       "sibling_uuid": "q01xRciXE0Epgej8",
-      "child_uuid": "cvsC9EBJeq_Paoob",
+      "child_uuid": "W33nByHOLtd8V_OY",
       "parent_uuid": "",
       "doc_id": "",
       "level": 0,
@@ -600,10 +619,25 @@
     },
     {
       "type": "DOC",
+      "title": "VMware Fusion 13.6 安装 Kali Linux 2025.2 ARM 报错",
+      "uuid": "W33nByHOLtd8V_OY",
+      "url": "zrlpakc0yg7ol1qf",
+      "prev_uuid": "epS1sHdt0SIOVJUM",
+      "sibling_uuid": "cvsC9EBJeq_Paoob",
+      "child_uuid": "",
+      "parent_uuid": "epS1sHdt0SIOVJUM",
+      "doc_id": 247781899,
+      "level": 1,
+      "id": 247781899,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "解决 Excel 工作表保护密码",
       "uuid": "cvsC9EBJeq_Paoob",
       "url": "mslwb4ha02pqdvvp",
-      "prev_uuid": "epS1sHdt0SIOVJUM",
+      "prev_uuid": "W33nByHOLtd8V_OY",
       "sibling_uuid": "",
       "child_uuid": "",
       "parent_uuid": "epS1sHdt0SIOVJUM",

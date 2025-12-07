@@ -1,7 +1,7 @@
 ---
 title: VulnHub DC-2 靶场训练
 date: '2025-01-23 17:16:03'
-updated: '2025-01-23 23:42:45'
+updated: '2025-01-24 09:20:26'
 ---
 <!--more--> 
 ![](../../images/posts/68ab03e119a943b8f1c48d4c0a494aed.png)
