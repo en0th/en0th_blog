@@ -1,4 +1,3 @@
-<img width="523" height="162" alt="image" src="https://github.com/user-attachments/assets/70a143ec-1dbb-4822-b285-e3c42cec9892" />---
 title: 关于我
 date: 2023-03-30 15:57:51
 updated: '2026-01-13 12:18:13'
