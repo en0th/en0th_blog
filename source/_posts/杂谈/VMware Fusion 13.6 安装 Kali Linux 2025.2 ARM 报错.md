@@ -1,7 +1,7 @@
 ---
 title: VMware Fusion 13.6 安装 Kali Linux 2025.2 ARM 报错
 date: '2025-12-07 21:32:02'
-updated: '2025-12-07 21:46:28'
+updated: '2026-01-13 09:44:42'
 ---
 <!--more--> 
 原文：[https://www.layer23-switch.com/blog/vmware-funsion-install-kali-error.html](https://www.layer23-switch.com/blog/vmware-funsion-install-kali-error.html)
