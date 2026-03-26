@@ -1,7 +1,7 @@
 ---
 title: Strix 自动渗透搭建与使用
 date: '2026-03-26 15:14:35'
-updated: '2026-03-26 15:56:04'
+updated: '2026-03-26 15:58:49'
 ---
 <!--more--> 
 <font style="color:rgb(89, 89, 89);">Strix 是一款由OmniSecure公司开发的创新自动化安全测试工具，其特点是“自主的人工智能代理，其行为就像真正的黑客一样”。Strix具备开箱即用的完整黑客工具包、协作且可扩展的代理团队、自主POC验证避免误报、以开发者为中心的命令行界面、提供可操作的报告、提供自动修复等核心功能。</font>
@@ -110,4 +110,13 @@ strix -t https://github.com/org/repo -t https://your-app.com
 ![](../../images/posts/bf8c2dd2cd08f5e56caf78aa3ff071fc.png)
 
 我发现它遇到登陆界面有验证码卡了非常久的时间，我觉得这个东西似乎没有原先想象的那么的智能，初体验感觉很差。
+
+扫描完成后会在运行的目录下面生成个`strix_runs`目录，里面就有`vulnerabilities.csv`和漏洞的md文件。
+
+# 0x03 卸载
+无需多言，滚吧。
+
+```shell
+pipx uninstall strix-agent
+```
 
