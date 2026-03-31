@@ -1010,11 +1010,11 @@
     {
       "id": 263721764,
       "doc_id": "we5o799xexpqrhgd",
-      "updated": 1774929259000,
+      "updated": 1774929416000,
       "properties": {
         "title": "解决GitHub Action 计费错误",
         "date": "2026-03-31 11:53:05",
-        "updated": "2026-03-31 11:54:19"
+        "updated": "2026-03-31 11:56:56"
       },
       "catalog": [
         {
@@ -1326,7 +1326,7 @@
       "level": 1,
       "id": 263721764,
       "open_window": 1,
-      "visible": 0
+      "visible": 1
     },
     {
       "type": "DOC",
