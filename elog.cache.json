@@ -1010,40 +1010,30 @@
     {
       "id": 263721764,
       "doc_id": "we5o799xexpqrhgd",
-      "updated": 1774929213000,
+      "updated": 1774929259000,
       "properties": {
         "title": "解决GitHub Action 计费错误",
         "date": "2026-03-31 11:53:05",
-        "updated": "2026-03-31 11:53:33"
+        "updated": "2026-03-31 11:54:19"
       },
-      "catalog": [],
+      "catalog": [
+        {
+          "title": "杂谈",
+          "doc_id": "we5o799xexpqrhgd"
+        }
+      ],
       "realName": "解决GitHub Action 计费错误",
-      "relativePath": "解决GitHub Action 计费错误.md",
-      "docPath": "source/_posts/"
+      "relativePath": "杂谈/解决GitHub Action 计费错误.md",
+      "docPath": "source/_posts/杂谈"
     }
   ],
   "catalog": [
-    {
-      "type": "DOC",
-      "title": "解决GitHub Action 计费错误",
-      "uuid": "0lHt5pfdBdLtVDjn",
-      "url": "we5o799xexpqrhgd",
-      "prev_uuid": "",
-      "sibling_uuid": "kxBeMAH6vYxzH2H1",
-      "child_uuid": "",
-      "parent_uuid": "",
-      "doc_id": 263721764,
-      "level": 0,
-      "id": 263721764,
-      "open_window": 1,
-      "visible": 0
-    },
     {
       "type": "TITLE",
       "title": "考证",
       "uuid": "kxBeMAH6vYxzH2H1",
       "url": "",
-      "prev_uuid": "0lHt5pfdBdLtVDjn",
+      "prev_uuid": "",
       "sibling_uuid": "mwL873wQ0wX47Zak",
       "child_uuid": "Xl1voVEPbNGGHZEc",
       "parent_uuid": "",
@@ -1315,7 +1305,7 @@
       "url": "",
       "prev_uuid": "y6ZGBwgpBgddmyk2",
       "sibling_uuid": "q01xRciXE0Epgej8",
-      "child_uuid": "VW9iV8rtEl_kVQZt",
+      "child_uuid": "0lHt5pfdBdLtVDjn",
       "parent_uuid": "",
       "doc_id": "",
       "level": 0,
@@ -1325,10 +1315,25 @@
     },
     {
       "type": "DOC",
+      "title": "解决GitHub Action 计费错误",
+      "uuid": "0lHt5pfdBdLtVDjn",
+      "url": "we5o799xexpqrhgd",
+      "prev_uuid": "epS1sHdt0SIOVJUM",
+      "sibling_uuid": "VW9iV8rtEl_kVQZt",
+      "child_uuid": "",
+      "parent_uuid": "epS1sHdt0SIOVJUM",
+      "doc_id": 263721764,
+      "level": 1,
+      "id": 263721764,
+      "open_window": 1,
+      "visible": 0
+    },
+    {
+      "type": "DOC",
       "title": "打包Chrome插件迁移",
       "uuid": "VW9iV8rtEl_kVQZt",
       "url": "ty6bcp493y1xecsk",
-      "prev_uuid": "epS1sHdt0SIOVJUM",
+      "prev_uuid": "0lHt5pfdBdLtVDjn",
       "sibling_uuid": "LqsW-zah44I94IcN",
       "child_uuid": "",
       "parent_uuid": "epS1sHdt0SIOVJUM",
