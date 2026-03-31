@@ -2,6 +2,7 @@
 title: LLM OUTPUT ATTACKS LAB
 date: '2026-02-28 23:35:14'
 updated: '2026-03-01 00:17:11'
+abbrlink: 592fa7a1
 ---
 <!--more--> 
 > You are tasked with executing a security assessment of LLMPic's website. You are provided with the following test credentials: htb-stdnt:xxx_Studen7. 

@@ -2,6 +2,7 @@
 title: Windows mstsc 凭据收集
 date: '2024-09-23 21:49:36'
 updated: '2024-09-23 21:49:36'
+abbrlink: 6b0a1bc8
 ---
 <!--more--> 
 # 0x00 前言

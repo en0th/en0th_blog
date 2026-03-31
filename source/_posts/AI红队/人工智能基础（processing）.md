@@ -2,6 +2,7 @@
 title: 人工智能基础（processing）
 date: '2026-03-01 10:06:14'
 updated: '2026-03-08 12:50:14'
+abbrlink: 4bc0696f
 ---
 <!--more--> 
 # 人工智能与机器学习概述

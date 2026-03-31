@@ -987,6 +987,25 @@
       "realName": "BootstrapAdmin 代码审计",
       "relativePath": "代码审计/BootstrapAdmin 代码审计.md",
       "docPath": "source/_posts/代码审计"
+    },
+    {
+      "id": 263027509,
+      "doc_id": "ty6bcp493y1xecsk",
+      "updated": 1774834796000,
+      "properties": {
+        "title": "打包Chrome插件迁移",
+        "date": "2026-03-26 17:21:28",
+        "updated": "2026-03-30 09:39:56"
+      },
+      "catalog": [
+        {
+          "title": "杂谈",
+          "doc_id": "ty6bcp493y1xecsk"
+        }
+      ],
+      "realName": "打包Chrome插件迁移",
+      "relativePath": "杂谈/打包Chrome插件迁移.md",
+      "docPath": "source/_posts/杂谈"
     }
   ],
   "catalog": [
@@ -1267,7 +1286,7 @@
       "url": "",
       "prev_uuid": "y6ZGBwgpBgddmyk2",
       "sibling_uuid": "q01xRciXE0Epgej8",
-      "child_uuid": "LqsW-zah44I94IcN",
+      "child_uuid": "VW9iV8rtEl_kVQZt",
       "parent_uuid": "",
       "doc_id": "",
       "level": 0,
@@ -1277,10 +1296,25 @@
     },
     {
       "type": "DOC",
+      "title": "打包Chrome插件迁移",
+      "uuid": "VW9iV8rtEl_kVQZt",
+      "url": "ty6bcp493y1xecsk",
+      "prev_uuid": "epS1sHdt0SIOVJUM",
+      "sibling_uuid": "LqsW-zah44I94IcN",
+      "child_uuid": "",
+      "parent_uuid": "epS1sHdt0SIOVJUM",
+      "doc_id": 263027509,
+      "level": 1,
+      "id": 263027509,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "Kali 使用RDP连接Windows终端",
       "uuid": "LqsW-zah44I94IcN",
       "url": "icto6p6vbrt5pdge",
-      "prev_uuid": "epS1sHdt0SIOVJUM",
+      "prev_uuid": "VW9iV8rtEl_kVQZt",
       "sibling_uuid": "UWCEM1xDQQWGx53z",
       "child_uuid": "",
       "parent_uuid": "epS1sHdt0SIOVJUM",

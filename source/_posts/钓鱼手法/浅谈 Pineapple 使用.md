@@ -2,6 +2,7 @@
 title: 浅谈 Pineapple 使用
 date: '2024-04-30 10:22:25'
 updated: '2024-04-30 11:18:13'
+abbrlink: 57c1dea8
 ---
 <!--more--> 
 # 0x00 前言

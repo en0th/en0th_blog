@@ -2,6 +2,7 @@
 title: Windows 模式下 PHP 文件写入特性
 date: '2024-07-24 15:29:12'
 updated: '2024-07-24 15:29:25'
+abbrlink: dad55f02
 ---
 <!--more--> 
 # 0x00 前言
