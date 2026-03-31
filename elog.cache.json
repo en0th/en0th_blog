@@ -1006,15 +1006,44 @@
       "realName": "打包Chrome插件迁移",
       "relativePath": "杂谈/打包Chrome插件迁移.md",
       "docPath": "source/_posts/杂谈"
+    },
+    {
+      "id": 263721764,
+      "doc_id": "we5o799xexpqrhgd",
+      "updated": 1774929213000,
+      "properties": {
+        "title": "解决GitHub Action 计费错误",
+        "date": "2026-03-31 11:53:05",
+        "updated": "2026-03-31 11:53:33"
+      },
+      "catalog": [],
+      "realName": "解决GitHub Action 计费错误",
+      "relativePath": "解决GitHub Action 计费错误.md",
+      "docPath": "source/_posts/"
     }
   ],
   "catalog": [
+    {
+      "type": "DOC",
+      "title": "解决GitHub Action 计费错误",
+      "uuid": "0lHt5pfdBdLtVDjn",
+      "url": "we5o799xexpqrhgd",
+      "prev_uuid": "",
+      "sibling_uuid": "kxBeMAH6vYxzH2H1",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "doc_id": 263721764,
+      "level": 0,
+      "id": 263721764,
+      "open_window": 1,
+      "visible": 0
+    },
     {
       "type": "TITLE",
       "title": "考证",
       "uuid": "kxBeMAH6vYxzH2H1",
       "url": "",
-      "prev_uuid": "",
+      "prev_uuid": "0lHt5pfdBdLtVDjn",
       "sibling_uuid": "mwL873wQ0wX47Zak",
       "child_uuid": "Xl1voVEPbNGGHZEc",
       "parent_uuid": "",
