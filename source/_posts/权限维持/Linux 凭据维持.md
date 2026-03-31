@@ -2,7 +2,6 @@
 title: Linux 凭据维持
 date: '2024-09-23 21:53:30'
 updated: '2024-09-23 21:55:07'
-abbrlink: 8f00fab4
 ---
 <!--more--> 
 # 0x01 写入 passwd 后门用户

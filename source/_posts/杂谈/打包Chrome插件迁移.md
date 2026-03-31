@@ -2,7 +2,6 @@
 title: 打包Chrome插件迁移
 date: '2026-03-26 17:21:28'
 updated: '2026-03-30 09:39:56'
-abbrlink: afd233d0
 ---
 <!--more--> 
 # 0x00 前言

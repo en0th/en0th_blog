@@ -2,7 +2,6 @@
 title: fastjson WAF绕过方式
 date: '2026-01-19 11:20:26'
 updated: '2026-01-19 15:15:50'
-abbrlink: 3c9612f8
 ---
 <!--more--> 
 # 题目

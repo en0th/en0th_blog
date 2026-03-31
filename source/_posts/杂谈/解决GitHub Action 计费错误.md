@@ -2,7 +2,6 @@
 title: 解决GitHub Action 计费错误
 date: '2026-03-31 11:53:05'
 updated: '2026-03-31 11:56:56'
-abbrlink: ad7e1821
 ---
 <!--more--> 
 今天想要自动Action拉去一下语雀博客内容，发现提示需要收费！

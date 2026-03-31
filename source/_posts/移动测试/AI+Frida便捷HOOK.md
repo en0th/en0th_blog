@@ -2,7 +2,6 @@
 title: AI+Frida便捷HOOK
 date: '2026-03-08 19:11:43'
 updated: '2026-03-08 21:39:52'
-abbrlink: f1f1eda6
 ---
 <!--more--> 
 设备：iPhone8P

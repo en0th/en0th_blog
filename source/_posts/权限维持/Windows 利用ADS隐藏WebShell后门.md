@@ -2,7 +2,6 @@
 title: Windows 利用ADS隐藏WebShell后门
 date: '2024-09-23 21:52:45'
 updated: '2024-09-23 21:53:58'
-abbrlink: 3ea825e4
 ---
 <!--more--> 
 # 0x01 NTFS 流隐藏写入文件

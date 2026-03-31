@@ -2,7 +2,6 @@
 title: Linux 主机信息收集
 date: '2024-09-23 21:48:49'
 updated: '2024-09-23 21:48:49'
-abbrlink: 1c7bc632
 ---
 <!--more--> 
 ## 前言

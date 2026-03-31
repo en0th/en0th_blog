@@ -2,7 +2,6 @@
 title: 检测 Java 使用什么 JSON 库的方式
 date: '2026-01-13 17:46:58'
 updated: '2026-01-16 10:59:21'
-abbrlink: 86929b7d
 ---
 <!--more--> 
 原文：[https://github.com/su18/hack-fastjson-1.2.80](https://github.com/su18/hack-fastjson-1.2.80)

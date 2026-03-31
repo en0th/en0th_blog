@@ -2,7 +2,6 @@
 title: Shiro 1.2.4 遇到 Tomcat 头字段限制
 date: '2026-01-13 17:21:48'
 updated: '2026-01-19 16:39:04'
-abbrlink: aeedcc3
 ---
 <!--more--> 
 # 限制
