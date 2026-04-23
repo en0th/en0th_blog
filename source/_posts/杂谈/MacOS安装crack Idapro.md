@@ -1,7 +1,7 @@
 ---
 title: MacOS安装crack Idapro
 date: '2026-04-21 17:30:09'
-updated: '2026-04-22 10:54:46'
+updated: '2026-04-22 17:08:34'
 ---
 <!--more--> 
 # IdaPro9.3
@@ -11,18 +11,26 @@ updated: '2026-04-22 10:54:46'
 
 ## 安装
 #### 复制激活脚本到目录
-复制`crack_ida90_beta.py`到包内容路径
+复制`<font style="color:rgb(0, 0, 0);">keygen-v2_bgspa.py </font>`到包内容路径
 
 默认路径为：`/Applications/IDA Professional 9.3.app/Contents/MacOS/`
 
-#### 改名并执行脚本
-将libida32.dylib改成libida64.dylib后执行python脚本
+#### 执行脚本
+执行python脚本
 
-#### 改名并覆盖原文件
-将生成的libida.dylib.patched和libida.dylib64.patched改名，删除.patched后缀和将64改成32，然后覆盖原文件。
+```shell
+python3 keygen-v2_bgspa.py --oneshot
+```
 
-#### 复制许可证并导入
-将activation中的idapro.hexlic复制到～/.idapro  
+#### 复制许可证
+在目录下生成的idapro.hexlic复制到～/.idapro
+
+```shell
+cp idapro.hexlic ～/.idapro
+```
+
+也可以手动导入：
+
 启动 IDA Pro，进入 License manager，选择 “Use local idapro.hexlic file”*，浏览并选中第一步生成的 .hexlic 文件，点击 OK。
 
 #### 验证结果
