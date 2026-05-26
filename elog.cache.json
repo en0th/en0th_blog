@@ -1,6 +1,25 @@
 {
   "docs": [
     {
+      "id": 269916815,
+      "doc_id": "yzshdhdye074v4fz",
+      "updated": 1779020373000,
+      "properties": {
+        "title": "Kali 安装 Claude Code",
+        "date": "2026-05-15 14:30:26",
+        "updated": "2026-05-17 20:19:33"
+      },
+      "catalog": [
+        {
+          "title": "杂谈",
+          "doc_id": "yzshdhdye074v4fz"
+        }
+      ],
+      "realName": "Kali 安装 Claude Code",
+      "relativePath": "杂谈/Kali 安装 Claude Code.md",
+      "docPath": "source/_posts/杂谈"
+    },
+    {
       "id": 266764398,
       "doc_id": "igxg9ruepl0lg3dv",
       "updated": 1776848914000,
@@ -17,44 +36,6 @@
       ],
       "realName": "MacOS安装crack Idapro",
       "relativePath": "杂谈/MacOS安装crack Idapro.md",
-      "docPath": "source/_posts/杂谈"
-    },
-    {
-      "id": 266844999,
-      "doc_id": "oz1s1gtpo3t4rg3p",
-      "updated": 1776825757000,
-      "properties": {
-        "title": "微信mac双开方法（亲测可用）",
-        "date": "2026-04-22 10:41:08",
-        "updated": "2026-04-22 10:42:37"
-      },
-      "catalog": [
-        {
-          "title": "杂谈",
-          "doc_id": "oz1s1gtpo3t4rg3p"
-        }
-      ],
-      "realName": "微信mac双开方法（亲测可用）",
-      "relativePath": "杂谈/微信mac双开方法（亲测可用）.md",
-      "docPath": "source/_posts/杂谈"
-    },
-    {
-      "id": 265081579,
-      "doc_id": "ogpbsw8nsi7yappw",
-      "updated": 1775787282000,
-      "properties": {
-        "title": "Iphone ROOT 测试工具集",
-        "date": "2026-04-09 22:12:51",
-        "updated": "2026-04-10 10:14:42"
-      },
-      "catalog": [
-        {
-          "title": "杂谈",
-          "doc_id": "ogpbsw8nsi7yappw"
-        }
-      ],
-      "realName": "Iphone ROOT 测试工具集",
-      "relativePath": "杂谈/Iphone ROOT 测试工具集.md",
       "docPath": "source/_posts/杂谈"
     },
     {
@@ -77,6 +58,25 @@
       "docPath": "source/_posts/漏洞专项"
     },
     {
+      "id": 265081579,
+      "doc_id": "ogpbsw8nsi7yappw",
+      "updated": 1775787282000,
+      "properties": {
+        "title": "Iphone ROOT 测试工具集",
+        "date": "2026-04-09 22:12:51",
+        "updated": "2026-04-10 10:14:42"
+      },
+      "catalog": [
+        {
+          "title": "杂谈",
+          "doc_id": "ogpbsw8nsi7yappw"
+        }
+      ],
+      "realName": "Iphone ROOT 测试工具集",
+      "relativePath": "杂谈/Iphone ROOT 测试工具集.md",
+      "docPath": "source/_posts/杂谈"
+    },
+    {
       "id": 263721764,
       "doc_id": "we5o799xexpqrhgd",
       "updated": 1774929416000,
@@ -93,6 +93,25 @@
       ],
       "realName": "解决GitHub Action 计费错误",
       "relativePath": "杂谈/解决GitHub Action 计费错误.md",
+      "docPath": "source/_posts/杂谈"
+    },
+    {
+      "id": 266844999,
+      "doc_id": "oz1s1gtpo3t4rg3p",
+      "updated": 1776825757000,
+      "properties": {
+        "title": "微信mac双开方法（亲测可用）",
+        "date": "2026-04-22 10:41:08",
+        "updated": "2026-04-22 10:42:37"
+      },
+      "catalog": [
+        {
+          "title": "杂谈",
+          "doc_id": "oz1s1gtpo3t4rg3p"
+        }
+      ],
+      "realName": "微信mac双开方法（亲测可用）",
+      "relativePath": "杂谈/微信mac双开方法（亲测可用）.md",
       "docPath": "source/_posts/杂谈"
     },
     {
@@ -153,6 +172,25 @@
       "docPath": "source/_posts/杂谈"
     },
     {
+      "id": 260156837,
+      "doc_id": "vls7unulqukvg650",
+      "updated": 1772977192000,
+      "properties": {
+        "title": "AI+Frida便捷HOOK",
+        "date": "2026-03-08 19:11:43",
+        "updated": "2026-03-08 21:39:52"
+      },
+      "catalog": [
+        {
+          "title": "移动测试",
+          "doc_id": "vls7unulqukvg650"
+        }
+      ],
+      "realName": "AI+Frida便捷HOOK",
+      "relativePath": "移动测试/AI+Frida便捷HOOK.md",
+      "docPath": "source/_posts/移动测试"
+    },
+    {
       "id": 261539040,
       "doc_id": "iuoygxuq1tfs048g",
       "updated": 1773733969000,
@@ -189,25 +227,6 @@
       "realName": "计算地址实现内存免杀",
       "relativePath": "免杀编写/计算地址实现内存免杀.md",
       "docPath": "source/_posts/免杀编写"
-    },
-    {
-      "id": 260156837,
-      "doc_id": "vls7unulqukvg650",
-      "updated": 1772977192000,
-      "properties": {
-        "title": "AI+Frida便捷HOOK",
-        "date": "2026-03-08 19:11:43",
-        "updated": "2026-03-08 21:39:52"
-      },
-      "catalog": [
-        {
-          "title": "移动测试",
-          "doc_id": "vls7unulqukvg650"
-        }
-      ],
-      "realName": "AI+Frida便捷HOOK",
-      "relativePath": "移动测试/AI+Frida便捷HOOK.md",
-      "docPath": "source/_posts/移动测试"
     },
     {
       "id": 258779549,
@@ -305,25 +324,6 @@
       "docPath": "source/_posts/代码审计"
     },
     {
-      "id": 252961616,
-      "doc_id": "zb7o9f6d8h583g4y",
-      "updated": 1768532361000,
-      "properties": {
-        "title": "检测 Java 使用什么 JSON 库的方式",
-        "date": "2026-01-13 17:46:58",
-        "updated": "2026-01-16 10:59:21"
-      },
-      "catalog": [
-        {
-          "title": "漏洞专项",
-          "doc_id": "zb7o9f6d8h583g4y"
-        }
-      ],
-      "realName": "检测 Java 使用什么 JSON 库的方式",
-      "relativePath": "漏洞专项/检测 Java 使用什么 JSON 库的方式.md",
-      "docPath": "source/_posts/漏洞专项"
-    },
-    {
       "id": 253725001,
       "doc_id": "ng7cy2g4hcypq7rp",
       "updated": 1768806950000,
@@ -340,6 +340,25 @@
       ],
       "realName": "fastjson WAF绕过方式",
       "relativePath": "漏洞专项/fastjson WAF绕过方式.md",
+      "docPath": "source/_posts/漏洞专项"
+    },
+    {
+      "id": 252961616,
+      "doc_id": "zb7o9f6d8h583g4y",
+      "updated": 1768532361000,
+      "properties": {
+        "title": "检测 Java 使用什么 JSON 库的方式",
+        "date": "2026-01-13 17:46:58",
+        "updated": "2026-01-16 10:59:21"
+      },
+      "catalog": [
+        {
+          "title": "漏洞专项",
+          "doc_id": "zb7o9f6d8h583g4y"
+        }
+      ],
+      "realName": "检测 Java 使用什么 JSON 库的方式",
+      "relativePath": "漏洞专项/检测 Java 使用什么 JSON 库的方式.md",
       "docPath": "source/_posts/漏洞专项"
     },
     {
@@ -362,25 +381,6 @@
       "docPath": "source/_posts/漏洞专项"
     },
     {
-      "id": 252904582,
-      "doc_id": "mk81hf2zq2fkgeuu",
-      "updated": 1768294534000,
-      "properties": {
-        "title": "云服务元数据获取",
-        "date": "2026-01-13 11:21:20",
-        "updated": "2026-01-13 16:55:34"
-      },
-      "catalog": [
-        {
-          "title": "云攻击",
-          "doc_id": "mk81hf2zq2fkgeuu"
-        }
-      ],
-      "realName": "云服务元数据获取",
-      "relativePath": "云攻击/云服务元数据获取.md",
-      "docPath": "source/_posts/云攻击"
-    },
-    {
       "id": 145403186,
       "doc_id": "wh90mwqyl2mzg8w1",
       "updated": 1774488951000,
@@ -398,6 +398,25 @@
       "realName": "2023软考应用题目知识点",
       "relativePath": "考证/2023软考应用题目知识点.md",
       "docPath": "source/_posts/考证"
+    },
+    {
+      "id": 252904582,
+      "doc_id": "mk81hf2zq2fkgeuu",
+      "updated": 1768294534000,
+      "properties": {
+        "title": "云服务元数据获取",
+        "date": "2026-01-13 11:21:20",
+        "updated": "2026-01-13 16:55:34"
+      },
+      "catalog": [
+        {
+          "title": "云攻击",
+          "doc_id": "mk81hf2zq2fkgeuu"
+        }
+      ],
+      "realName": "云服务元数据获取",
+      "relativePath": "云攻击/云服务元数据获取.md",
+      "docPath": "source/_posts/云攻击"
     },
     {
       "id": 248527089,
@@ -457,25 +476,6 @@
       "docPath": "source/_posts/杂谈"
     },
     {
-      "id": 247781899,
-      "doc_id": "zrlpakc0yg7ol1qf",
-      "updated": 1768268682000,
-      "properties": {
-        "title": "VMware Fusion 13.6 安装 Kali Linux 2025.2 ARM 报错",
-        "date": "2025-12-07 21:32:02",
-        "updated": "2026-01-13 09:44:42"
-      },
-      "catalog": [
-        {
-          "title": "杂谈",
-          "doc_id": "zrlpakc0yg7ol1qf"
-        }
-      ],
-      "realName": "VMware Fusion 13.6 安装 Kali Linux 2025.2 ARM 报错",
-      "relativePath": "杂谈/VMware Fusion 13.6 安装 Kali Linux 2025.2 ARM 报错.md",
-      "docPath": "source/_posts/杂谈"
-    },
-    {
       "id": 247936834,
       "doc_id": "qsl2eg9bc67hfn2g",
       "updated": 1765964192000,
@@ -493,6 +493,25 @@
       "realName": "流量分析-misc400",
       "relativePath": "CTF比赛/流量分析-misc400.md",
       "docPath": "source/_posts/CTF比赛"
+    },
+    {
+      "id": 247781899,
+      "doc_id": "zrlpakc0yg7ol1qf",
+      "updated": 1768268682000,
+      "properties": {
+        "title": "VMware Fusion 13.6 安装 Kali Linux 2025.2 ARM 报错",
+        "date": "2025-12-07 21:32:02",
+        "updated": "2026-01-13 09:44:42"
+      },
+      "catalog": [
+        {
+          "title": "杂谈",
+          "doc_id": "zrlpakc0yg7ol1qf"
+        }
+      ],
+      "realName": "VMware Fusion 13.6 安装 Kali Linux 2025.2 ARM 报错",
+      "relativePath": "杂谈/VMware Fusion 13.6 安装 Kali Linux 2025.2 ARM 报错.md",
+      "docPath": "source/_posts/杂谈"
     },
     {
       "id": 218399765,
@@ -533,25 +552,6 @@
       "docPath": "source/_posts/取证"
     },
     {
-      "id": 218056837,
-      "doc_id": "in4wbbe7wv0srhc4",
-      "updated": 1774488779000,
-      "properties": {
-        "title": "X-Ways 高效使用",
-        "date": "2025-05-03 20:01:15",
-        "updated": "2026-03-26 09:32:59"
-      },
-      "catalog": [
-        {
-          "title": "取证",
-          "doc_id": "in4wbbe7wv0srhc4"
-        }
-      ],
-      "realName": "X-Ways 高效使用",
-      "relativePath": "取证/X-Ways 高效使用.md",
-      "docPath": "source/_posts/取证"
-    },
-    {
       "id": 253779605,
       "doc_id": "wtrzgwgkeihve6u8",
       "updated": 1768812195000,
@@ -569,6 +569,25 @@
       "realName": "安卓App漏洞挖掘手法知识库",
       "relativePath": "移动测试/安卓App漏洞挖掘手法知识库.md",
       "docPath": "source/_posts/移动测试"
+    },
+    {
+      "id": 218056837,
+      "doc_id": "in4wbbe7wv0srhc4",
+      "updated": 1774488779000,
+      "properties": {
+        "title": "X-Ways 高效使用",
+        "date": "2025-05-03 20:01:15",
+        "updated": "2026-03-26 09:32:59"
+      },
+      "catalog": [
+        {
+          "title": "取证",
+          "doc_id": "in4wbbe7wv0srhc4"
+        }
+      ],
+      "realName": "X-Ways 高效使用",
+      "relativePath": "取证/X-Ways 高效使用.md",
+      "docPath": "source/_posts/取证"
     },
     {
       "id": 203647125,
@@ -609,6 +628,25 @@
       "docPath": "source/_posts/杂谈"
     },
     {
+      "id": 192725014,
+      "doc_id": "kqh6r6x7vglpyw09",
+      "updated": 1732497914000,
+      "properties": {
+        "title": "Huawei Mate 20 Pro Root 教程",
+        "date": "2024-11-02 01:14:25",
+        "updated": "2024-11-25 09:25:14"
+      },
+      "catalog": [
+        {
+          "title": "移动测试",
+          "doc_id": "kqh6r6x7vglpyw09"
+        }
+      ],
+      "realName": "Huawei Mate 20 Pro Root 教程",
+      "relativePath": "移动测试/Huawei Mate 20 Pro Root 教程.md",
+      "docPath": "source/_posts/移动测试"
+    },
+    {
       "id": 179338001,
       "doc_id": "af1ysfc8hs4opgre",
       "updated": 1727099847000,
@@ -628,23 +666,23 @@
       "docPath": "source/_posts/代码审计"
     },
     {
-      "id": 192725014,
-      "doc_id": "kqh6r6x7vglpyw09",
-      "updated": 1732497914000,
+      "id": 187717637,
+      "doc_id": "cx0f4z82423dv1ss",
+      "updated": 1727099818000,
       "properties": {
-        "title": "Huawei Mate 20 Pro Root 教程",
-        "date": "2024-11-02 01:14:25",
-        "updated": "2024-11-25 09:25:14"
+        "title": "Linux 隐藏信息",
+        "date": "2024-09-23 21:53:17",
+        "updated": "2024-09-23 21:56:58"
       },
       "catalog": [
         {
-          "title": "移动测试",
-          "doc_id": "kqh6r6x7vglpyw09"
+          "title": "权限维持",
+          "doc_id": "cx0f4z82423dv1ss"
         }
       ],
-      "realName": "Huawei Mate 20 Pro Root 教程",
-      "relativePath": "移动测试/Huawei Mate 20 Pro Root 教程.md",
-      "docPath": "source/_posts/移动测试"
+      "realName": "Linux 隐藏信息",
+      "relativePath": "权限维持/Linux 隐藏信息.md",
+      "docPath": "source/_posts/权限维持"
     },
     {
       "id": 167865370,
@@ -723,22 +761,41 @@
       "docPath": "source/_posts/权限维持"
     },
     {
-      "id": 187717637,
-      "doc_id": "cx0f4z82423dv1ss",
-      "updated": 1727099818000,
+      "id": 187717586,
+      "doc_id": "pz9z6bvufzfit65t",
+      "updated": 1727099638000,
       "properties": {
-        "title": "Linux 隐藏信息",
-        "date": "2024-09-23 21:53:17",
-        "updated": "2024-09-23 21:56:58"
+        "title": "Windows 利用ADS隐藏WebShell后门",
+        "date": "2024-09-23 21:52:45",
+        "updated": "2024-09-23 21:53:58"
       },
       "catalog": [
         {
           "title": "权限维持",
-          "doc_id": "cx0f4z82423dv1ss"
+          "doc_id": "pz9z6bvufzfit65t"
         }
       ],
-      "realName": "Linux 隐藏信息",
-      "relativePath": "权限维持/Linux 隐藏信息.md",
+      "realName": "Windows 利用ADS隐藏WebShell后门",
+      "relativePath": "权限维持/Windows 利用ADS隐藏WebShell后门.md",
+      "docPath": "source/_posts/权限维持"
+    },
+    {
+      "id": 187717551,
+      "doc_id": "vqwawyyz4pdrllxn",
+      "updated": 1727099643000,
+      "properties": {
+        "title": "Windows 隐藏木马后门文件",
+        "date": "2024-09-23 21:52:27",
+        "updated": "2024-09-23 21:54:03"
+      },
+      "catalog": [
+        {
+          "title": "权限维持",
+          "doc_id": "vqwawyyz4pdrllxn"
+        }
+      ],
+      "realName": "Windows 隐藏木马后门文件",
+      "relativePath": "权限维持/Windows 隐藏木马后门文件.md",
       "docPath": "source/_posts/权限维持"
     },
     {
@@ -759,25 +816,6 @@
       "realName": "Windows mstsc 凭据收集",
       "relativePath": "内网横向/Windows mstsc 凭据收集.md",
       "docPath": "source/_posts/内网横向"
-    },
-    {
-      "id": 187717586,
-      "doc_id": "pz9z6bvufzfit65t",
-      "updated": 1727099638000,
-      "properties": {
-        "title": "Windows 利用ADS隐藏WebShell后门",
-        "date": "2024-09-23 21:52:45",
-        "updated": "2024-09-23 21:53:58"
-      },
-      "catalog": [
-        {
-          "title": "权限维持",
-          "doc_id": "pz9z6bvufzfit65t"
-        }
-      ],
-      "realName": "Windows 利用ADS隐藏WebShell后门",
-      "relativePath": "权限维持/Windows 利用ADS隐藏WebShell后门.md",
-      "docPath": "source/_posts/权限维持"
     },
     {
       "id": 187717126,
@@ -818,25 +856,6 @@
       "docPath": "source/_posts/代码审计"
     },
     {
-      "id": 187717551,
-      "doc_id": "vqwawyyz4pdrllxn",
-      "updated": 1727099643000,
-      "properties": {
-        "title": "Windows 隐藏木马后门文件",
-        "date": "2024-09-23 21:52:27",
-        "updated": "2024-09-23 21:54:03"
-      },
-      "catalog": [
-        {
-          "title": "权限维持",
-          "doc_id": "vqwawyyz4pdrllxn"
-        }
-      ],
-      "realName": "Windows 隐藏木马后门文件",
-      "relativePath": "权限维持/Windows 隐藏木马后门文件.md",
-      "docPath": "source/_posts/权限维持"
-    },
-    {
       "id": 174194141,
       "doc_id": "svkghl4tkdtra7eq",
       "updated": 1719912216000,
@@ -875,23 +894,23 @@
       "docPath": "source/_posts/小程序安全"
     },
     {
-      "id": 167929812,
-      "doc_id": "trkbc42ed0xlkgmz",
-      "updated": 1714470147000,
+      "id": 173650360,
+      "doc_id": "zc356mrnob7s8odk",
+      "updated": 1718335091000,
       "properties": {
-        "title": "铭飞MCMS代码审计SQL注入",
-        "date": "2024-04-30 17:41:59",
-        "updated": "2024-04-30 17:42:27"
+        "title": "2022 Web 安全知识点汇总",
+        "date": "2024-06-14 11:03:42",
+        "updated": "2024-06-14 11:18:11"
       },
       "catalog": [
         {
-          "title": "代码审计",
-          "doc_id": "trkbc42ed0xlkgmz"
+          "title": "总结",
+          "doc_id": "zc356mrnob7s8odk"
         }
       ],
-      "realName": "铭飞MCMS代码审计SQL注入",
-      "relativePath": "代码审计/铭飞MCMS代码审计SQL注入.md",
-      "docPath": "source/_posts/代码审计"
+      "realName": "2022 Web 安全知识点汇总",
+      "relativePath": "总结/2022 Web 安全知识点汇总.md",
+      "docPath": "source/_posts/总结"
     },
     {
       "id": 167930730,
@@ -913,42 +932,23 @@
       "docPath": "source/_posts/小程序安全"
     },
     {
-      "id": 167865293,
-      "doc_id": "fge486a1r0lp28i3",
-      "updated": 1714447093000,
+      "id": 167929812,
+      "doc_id": "trkbc42ed0xlkgmz",
+      "updated": 1714470147000,
       "properties": {
-        "title": "企业级钓鱼演练平台搭建",
-        "date": "2024-04-30 10:22:55",
-        "updated": "2024-04-30 11:18:13"
+        "title": "铭飞MCMS代码审计SQL注入",
+        "date": "2024-04-30 17:41:59",
+        "updated": "2024-04-30 17:42:27"
       },
       "catalog": [
         {
-          "title": "钓鱼手法",
-          "doc_id": "fge486a1r0lp28i3"
+          "title": "代码审计",
+          "doc_id": "trkbc42ed0xlkgmz"
         }
       ],
-      "realName": "企业级钓鱼演练平台搭建",
-      "relativePath": "钓鱼手法/企业级钓鱼演练平台搭建.md",
-      "docPath": "source/_posts/钓鱼手法"
-    },
-    {
-      "id": 173650360,
-      "doc_id": "zc356mrnob7s8odk",
-      "updated": 1718335091000,
-      "properties": {
-        "title": "2022 Web 安全知识点汇总",
-        "date": "2024-06-14 11:03:42",
-        "updated": "2024-06-14 11:18:11"
-      },
-      "catalog": [
-        {
-          "title": "总结",
-          "doc_id": "zc356mrnob7s8odk"
-        }
-      ],
-      "realName": "2022 Web 安全知识点汇总",
-      "relativePath": "总结/2022 Web 安全知识点汇总.md",
-      "docPath": "source/_posts/总结"
+      "realName": "铭飞MCMS代码审计SQL注入",
+      "relativePath": "代码审计/铭飞MCMS代码审计SQL注入.md",
+      "docPath": "source/_posts/代码审计"
     },
     {
       "id": 167865420,
@@ -968,6 +968,25 @@
       "realName": "ModStartCMS-7.2.0 代码审计",
       "relativePath": "代码审计/ModStartCMS-7.2.0 代码审计.md",
       "docPath": "source/_posts/代码审计"
+    },
+    {
+      "id": 167865293,
+      "doc_id": "fge486a1r0lp28i3",
+      "updated": 1714447093000,
+      "properties": {
+        "title": "企业级钓鱼演练平台搭建",
+        "date": "2024-04-30 10:22:55",
+        "updated": "2024-04-30 11:18:13"
+      },
+      "catalog": [
+        {
+          "title": "钓鱼手法",
+          "doc_id": "fge486a1r0lp28i3"
+        }
+      ],
+      "realName": "企业级钓鱼演练平台搭建",
+      "relativePath": "钓鱼手法/企业级钓鱼演练平台搭建.md",
+      "docPath": "source/_posts/钓鱼手法"
     },
     {
       "id": 167865265,
@@ -1396,7 +1415,7 @@
       "url": "",
       "prev_uuid": "y6ZGBwgpBgddmyk2",
       "sibling_uuid": "q01xRciXE0Epgej8",
-      "child_uuid": "i2gpsOiCzqd3wYb1",
+      "child_uuid": "YUQMDiyAAaXdxjM9",
       "parent_uuid": "",
       "doc_id": "",
       "level": 0,
@@ -1406,10 +1425,25 @@
     },
     {
       "type": "DOC",
+      "title": "Kali 安装 Claude Code",
+      "uuid": "YUQMDiyAAaXdxjM9",
+      "url": "yzshdhdye074v4fz",
+      "prev_uuid": "epS1sHdt0SIOVJUM",
+      "sibling_uuid": "i2gpsOiCzqd3wYb1",
+      "child_uuid": "",
+      "parent_uuid": "epS1sHdt0SIOVJUM",
+      "doc_id": 269916815,
+      "level": 1,
+      "id": 269916815,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "MacOS安装crack Idapro",
       "uuid": "i2gpsOiCzqd3wYb1",
       "url": "igxg9ruepl0lg3dv",
-      "prev_uuid": "epS1sHdt0SIOVJUM",
+      "prev_uuid": "YUQMDiyAAaXdxjM9",
       "sibling_uuid": "tbhbm4_9Y_x55aAa",
       "child_uuid": "",
       "parent_uuid": "epS1sHdt0SIOVJUM",
