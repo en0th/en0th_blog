@@ -146,7 +146,7 @@ if (ch == '"') {
 
 解析字段的key的时候，调用了`smartMatch`，下面截了与本主题相关的关键点
 
-![](https://y4tacker.github.io/2022/03/30/year/2022/3/%E6%B5%85%E8%B0%88Fastjson%E7%BB%95waf/e5.png)
+![](../../images/posts/702b17e4bd0667e05df7f8c616ad946a.png)
 
 由于这里有`break`，不支持两个一起混合使用，只能单一使用其中一个，随便加
 
