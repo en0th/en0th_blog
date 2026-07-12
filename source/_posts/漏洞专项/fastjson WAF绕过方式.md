@@ -204,7 +204,7 @@ preg_replace("(/\*(.*?)\*/)","",'/*y4tacker*/{/*y4tacker*/"@type":"com.sun.rowse
 
 这里会调用`skipComment`去除注释
 
-![](https://y4tacker.github.io/2022/03/30/year/2022/3/%E6%B5%85%E8%B0%88Fastjson%E7%BB%95waf/s1.png)
+![](../../images/posts/145e70507110b9855d02f349812f824f.png)
 
 可以看见如果是正常逻辑匹配到`*/`只是移动到下一字符返回
 
