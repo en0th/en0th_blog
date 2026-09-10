@@ -36,6 +36,6 @@
     "hexo-theme-landscape": "^1.0.0",
     "hexo-wordcount": "^6.0.1",
     "inferno": "^8.2.3",
-    "inferno-create-element": "^8.2.3"
+    "inferno-create-element": "^9.1.0"
   }
 }
