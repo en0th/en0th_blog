@@ -114,7 +114,7 @@ FastJson中有个默认的Feature是开启的`AllowArbitraryCommas`，这允许�
 #### [](#type后的值第一个引号可以替换为其他字符)@type后的值第一个引号可以替换为其他字符
 主要是一个逻辑问题
 
-![](../../images/posts/b61fa021991dbc7b5522a4d0f6f0414f.png)
+![](https://y4tacker.github.io/2022/03/30/year/2022/3/%E6%B5%85%E8%B0%88Fastjson%E7%BB%95waf/e3.png)
 
 这里我们可以对比之前获取`@type`的过程，先检验了当前位置是`"`再扫描到下一个`"`之间的值
 
