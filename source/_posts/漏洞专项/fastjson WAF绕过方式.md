@@ -157,7 +157,7 @@ if (ch == '"') {
 #### [](#1-2-36版本及以后)1.2.36版本及以后
 我们再来看这个`smartMatch`调用了`com.alibaba.fastjson.util.TypeUtils#fnv1a_64_lower`
 
-![](https://y4tacker.github.io/2022/03/30/year/2022/3/%E6%B5%85%E8%B0%88Fastjson%E7%BB%95waf/e6.png)
+![](../../images/posts/a10a2e443c0839e848a58972d017d4c2.png)
 
 这个函数忽略所有的`_`与`-`
 
