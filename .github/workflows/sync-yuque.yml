@@ -1,0 +1,81 @@
+# 从语雀同步文档并构建 Hexo 站点
+name: Sync Yuque & Build Hexo
+
+on:
+  push:
+    branches: [master]
+    paths-ignore:
+      - 'source/_posts/**'
+      - 'source/images/**'
+      - 'time.txt'
+      - 'elog.cache.json'
+      - '**/*.md'
+  repository_dispatch:
+  workflow_dispatch:
+
+# 同一时间只允许一个同步任务，避免两次 push 互相覆盖
+concurrency:
+  group: sync-yuque
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
+      YUQUE_USERNAME: ${{ secrets.YUQUE_USERNAME }}
+      YUQUE_PASSWORD: ${{ secrets.YUQUE_PASSWORD }}
+      YUQUE_LOGIN: ${{ secrets.YUQUE_LOGIN }}
+      YUQUE_REPO: ${{ secrets.YUQUE_REPO }}
+
+    steps:
+      - name: 检查分支
+        uses: actions/checkout@v4
+
+      - name: 安装 node 环境
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: 安装依赖
+        run: npm ci --omit=dev
+
+      - name: 拉取语雀文档
+        run: |
+          npm run elog:clean
+          npm run elog:sync
+
+      - name: 构建站点
+        run: npx hexo clean && npx hexo generate
+
+      - name: 提交语雀拉取的文章
+        id: commit
+        run: |
+          git config user.name 'en0th'
+          git config user.email 'en0th@hotmail.com'
+          date +"%Y-%m-%d %H:%M:%S" > time.txt
+          git add -A
+          if git diff --cached --quiet; then
+            echo "无文档变更，跳过提交"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "更新文档"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 推送文章到仓库
+        if: steps.commit.outputs.changed == 'true'
+        run: git push origin HEAD:${{ github.ref_name }}
+
+      # 如需部署到 GitHub Pages：把仓库 Settings → Pages 的来源改为 GitHub Actions，
+      # 并给本 job 补上 permissions: pages: write 与 id-token: write，然后取消下面的注释
+      # - name: 上传 Pages 构建产物
+      #   uses: actions/upload-pages-artifact@v3
+      #   with:
+      #     path: public
+      # - name: 部署到 GitHub Pages
+      #   uses: actions/deploy-pages@v4

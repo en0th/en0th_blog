@@ -118,6 +118,17 @@ theme: icarus
 deploy:
   type: ''
 
+# RSS 订阅 (hexo-generator-feed)
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content: false
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+
 plugins:
   - hexo-directory-category
 

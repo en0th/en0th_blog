@@ -100,7 +100,7 @@ head:
         # E.g., name=theme-color;content=#123456 => <meta name="theme-color" content="#123456">
         - ''
     # URL or path to the website's RSS atom.xml
-    rss: 
+    rss: /atom.xml
 # Page top navigation bar configurations
 navbar:
     # Navigation menu items
@@ -118,7 +118,7 @@ navbar:
 # Page footer configurations
 footer:
     # Copyright text
-    copyright: Copyright © 2024 en0th
+    copyright: Copyright © 2024-2026 en0th
     # Links to be shown on the right of the footer section
     links:
         Creative Commons:
@@ -250,10 +250,10 @@ widgets:
                 url: https://github.com/en0th
             Email:
                 icon: fa fa-envelope
-                url: en0th@hotmail.com
+                url: mailto:en0th@hotmail.com
             RSS:
                 icon: fas fa-rss
-                url: /
+                url: /atom.xml
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar

@@ -395,7 +395,7 @@ addn-hosts=/etc/dnsmasq.hosts
 我这里偷懒了，但直接跳转到我们的钓鱼网站或者其他站点也是一个不错的选择。
 
 ```plain
-<?php header("Location: https://www.en0th.com");?>
+<?php header("Location: https://www.en0th.blog");?>
 ```
 
 ![](../../images/posts/dc13e79217e72afe7c7204650e17884a.png)
