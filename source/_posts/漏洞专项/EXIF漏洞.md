@@ -2,6 +2,7 @@
 title: EXIF漏洞
 date: '2023-12-01 16:37:34'
 updated: '2026-04-22 10:56:09'
+abbrlink: d9fb1c73
 ---
 <!--more--> 
 ## 漏洞描述

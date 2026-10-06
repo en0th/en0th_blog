@@ -2,6 +2,7 @@
 title: ubuntu 安装 openclaw
 date: '2026-06-03 15:18:28'
 updated: '2026-06-04 10:44:55'
+abbrlink: a9e02776
 ---
 <!--more--> 
 > openclaw 只是一个harness工具，需要LLM提供商。

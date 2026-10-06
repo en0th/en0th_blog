@@ -2,6 +2,7 @@
 title: Kali 安装 Claude Code
 date: '2026-05-15 14:30:26'
 updated: '2026-05-17 20:19:33'
+abbrlink: 678fbf4a
 ---
 <!--more--> 
 # 0x00 安装 nodejs 环境

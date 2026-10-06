@@ -2,6 +2,7 @@
 title: Windows10 获取密码
 date: '2025-05-06 18:30:57'
 updated: '2026-03-26 09:32:34'
+abbrlink: 98c7cd20
 ---
 <!--more--> 
 # 0x01 获取NTML值

