@@ -15,6 +15,9 @@
   "hexo": {
     "version": "7.3.0"
   },
+  "engines": {
+    "node": ">=24"
+  },
   "dependencies": {
     "@elog/cli": "^0.14.7",
     "bulma-stylus": "^0.8.0",
