@@ -267,25 +267,6 @@
       "docPath": "source/_posts/免杀编写"
     },
     {
-      "id": 258779549,
-      "doc_id": "fglxgvhp90yk26g3",
-      "updated": 1772945414000,
-      "properties": {
-        "title": "人工智能基础（processing）",
-        "date": "2026-03-01 10:06:14",
-        "updated": "2026-03-08 12:50:14"
-      },
-      "catalog": [
-        {
-          "title": "AI红队",
-          "doc_id": "fglxgvhp90yk26g3"
-        }
-      ],
-      "realName": "人工智能基础（processing）",
-      "relativePath": "AI红队/人工智能基础（processing）.md",
-      "docPath": "source/_posts/AI红队"
-    },
-    {
       "id": 258689745,
       "doc_id": "ixrrehglo98lz8vg",
       "updated": 1772295431000,
@@ -302,6 +283,25 @@
       ],
       "realName": "LLM OUTPUT ATTACKS LAB",
       "relativePath": "AI红队/LLM OUTPUT ATTACKS LAB.md",
+      "docPath": "source/_posts/AI红队"
+    },
+    {
+      "id": 258779549,
+      "doc_id": "fglxgvhp90yk26g3",
+      "updated": 1772945414000,
+      "properties": {
+        "title": "人工智能基础（processing）",
+        "date": "2026-03-01 10:06:14",
+        "updated": "2026-03-08 12:50:14"
+      },
+      "catalog": [
+        {
+          "title": "AI红队",
+          "doc_id": "fglxgvhp90yk26g3"
+        }
+      ],
+      "realName": "人工智能基础（processing）",
+      "relativePath": "AI红队/人工智能基础（processing）.md",
       "docPath": "source/_posts/AI红队"
     },
     {
@@ -723,25 +723,6 @@
       "docPath": "source/_posts/权限维持"
     },
     {
-      "id": 187717518,
-      "doc_id": "hi97n40l3snb657k",
-      "updated": 1727099657000,
-      "properties": {
-        "title": "Windows 创建影子用户",
-        "date": "2024-09-23 21:52:10",
-        "updated": "2024-09-23 21:54:17"
-      },
-      "catalog": [
-        {
-          "title": "权限维持",
-          "doc_id": "hi97n40l3snb657k"
-        }
-      ],
-      "realName": "Windows 创建影子用户",
-      "relativePath": "权限维持/Windows 创建影子用户.md",
-      "docPath": "source/_posts/权限维持"
-    },
-    {
       "id": 167865370,
       "doc_id": "oa56oyxeeqya0b6f",
       "updated": 1727099837000,
@@ -796,6 +777,25 @@
       ],
       "realName": "Windows 定时执行后门程序",
       "relativePath": "权限维持/Windows 定时执行后门程序.md",
+      "docPath": "source/_posts/权限维持"
+    },
+    {
+      "id": 187717518,
+      "doc_id": "hi97n40l3snb657k",
+      "updated": 1727099657000,
+      "properties": {
+        "title": "Windows 创建影子用户",
+        "date": "2024-09-23 21:52:10",
+        "updated": "2024-09-23 21:54:17"
+      },
+      "catalog": [
+        {
+          "title": "权限维持",
+          "doc_id": "hi97n40l3snb657k"
+        }
+      ],
+      "realName": "Windows 创建影子用户",
+      "relativePath": "权限维持/Windows 创建影子用户.md",
       "docPath": "source/_posts/权限维持"
     },
     {
