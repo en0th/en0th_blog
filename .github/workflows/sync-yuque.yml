@@ -23,6 +23,8 @@ permissions:
 
 jobs:
   build:
+    # 提交信息里带 [skip elog] 的 push 不触发语雀同步（手动 / webhook 触发不受影响）
+    if: ${{ github.event_name != 'push' || !contains(github.event.head_commit.message, '[skip elog]') }}
     runs-on: ubuntu-latest
     env:
       TZ: Asia/Shanghai
@@ -63,7 +65,7 @@ jobs:
             echo "无文档变更，跳过提交"
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            git commit -m "更新文档"
+            git commit -m "更新文档 [skip elog]"
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
