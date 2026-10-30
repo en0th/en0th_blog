@@ -1,7 +1,7 @@
 ---
 title: 浅谈 Pineapple 使用
 date: '2024-04-30 10:22:25'
-updated: '2024-04-30 11:18:13'
+updated: '2026-10-30 14:28:29'
 abbrlink: 57c1dea8
 ---
 <!--more--> 
